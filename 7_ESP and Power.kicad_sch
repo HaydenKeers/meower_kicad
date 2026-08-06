@@ -132,7 +132,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -150,7 +150,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -298,7 +298,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -316,7 +316,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -464,7 +464,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -482,7 +482,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -630,7 +630,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -648,7 +648,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -807,7 +807,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -825,7 +825,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -998,7 +998,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1016,7 +1016,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2470,7 +2470,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 0.762)
 					(name "1"
@@ -2488,7 +2488,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 0.762)
 					(name "2"
@@ -3066,7 +3066,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at -11.43 27.94 0)
 					(length 2.54)
 					(name "NC"
@@ -3120,7 +3120,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at -11.43 20.32 0)
 					(length 2.54)
 					(name "NC"
@@ -3372,7 +3372,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at -11.43 -15.24 0)
 					(length 2.54)
 					(name "NC"
@@ -3570,7 +3570,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at 11.43 -19.05 180)
 					(length 2.54)
 					(name "NC"
@@ -3588,7 +3588,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at 11.43 -16.51 180)
 					(length 2.54)
 					(name "NC"
@@ -3606,7 +3606,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at 11.43 -13.97 180)
 					(length 2.54)
 					(name "NC"
@@ -3624,7 +3624,7 @@
 						)
 					)
 				)
-				(pin passive line
+				(pin free line
 					(at 11.43 -11.43 180)
 					(length 2.54)
 					(name "NC"
@@ -4720,7 +4720,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "1"
@@ -4738,7 +4738,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "2"
@@ -6003,7 +6003,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 3.81)
 					(name "C"
@@ -6021,7 +6021,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 3.81)
 					(name "A"
@@ -6169,7 +6169,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -6187,7 +6187,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -6335,7 +6335,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -6353,7 +6353,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -6501,7 +6501,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -6519,7 +6519,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -6833,7 +6833,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -6851,7 +6851,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -7326,7 +7326,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -2.54 0 0)
 					(length 1.27)
 					(name "Pin1"
@@ -7344,7 +7344,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 2.54 0 180)
 					(length 1.27)
 					(name "Pin2"
@@ -7480,7 +7480,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -15.24 5.08 0)
 					(length 5.08)
 					(name "CHRG"
@@ -7498,7 +7498,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -15.24 0 0)
 					(length 5.08)
 					(name "GND"
@@ -7516,7 +7516,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -15.24 -5.08 0)
 					(length 5.08)
 					(name "BAT"
@@ -7534,7 +7534,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 15.24 -5.08 180)
 					(length 5.08)
 					(name "VCC"
@@ -7552,7 +7552,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 15.24 0 180)
 					(length 5.08)
 					(name "STDBY"
@@ -7570,7 +7570,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at 15.24 5.08 180)
 					(length 5.08)
 					(name "PROG"
@@ -7782,7 +7782,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin free line
 					(at -11.43 -3.81 0)
 					(length 2.54)
 					(name "NC"
@@ -8048,7 +8048,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -10.16 -1.27 0)
 					(length 2.54)
 					(name "CFG1"
@@ -8339,7 +8339,7 @@
 						(type none)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -11.43 13.97 0)
 					(length 2.54)
 					(name "GND"
@@ -8357,7 +8357,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 11.43 0)
 					(length 2.54)
 					(name "VBUS"
@@ -8375,7 +8375,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin free line
 					(at -11.43 8.89 0)
 					(length 2.54)
 					(name "SBU2"
@@ -8393,7 +8393,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 6.35 0)
 					(length 2.54)
 					(name "CC1"
@@ -8411,7 +8411,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -11.43 3.81 0)
 					(length 2.54)
 					(name "DN2"
@@ -8429,7 +8429,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -11.43 1.27 0)
 					(length 2.54)
 					(name "DP1"
@@ -8447,7 +8447,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -11.43 -1.27 0)
 					(length 2.54)
 					(name "DN1"
@@ -8465,7 +8465,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin bidirectional line
 					(at -11.43 -3.81 0)
 					(length 2.54)
 					(name "DP2"
@@ -8483,7 +8483,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin free line
 					(at -11.43 -6.35 0)
 					(length 2.54)
 					(name "SBU1"
@@ -8501,7 +8501,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 -8.89 0)
 					(length 2.54)
 					(name "CC2"
@@ -8519,7 +8519,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin passive line
 					(at -11.43 -11.43 0)
 					(length 2.54)
 					(name "VBUS"
@@ -8537,7 +8537,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at -11.43 -13.97 0)
 					(length 2.54)
 					(name "GND"
@@ -8555,7 +8555,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 10.16 -13.97 180)
 					(length 2.54)
 					(name "SHELL"
@@ -8573,7 +8573,7 @@
 						)
 					)
 				)
-				(pin input line
+				(pin power_in line
 					(at 10.16 13.97 180)
 					(length 2.54)
 					(name "SHELL"
@@ -8731,7 +8731,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin power_out line
 					(at -5.08 1.27 0)
 					(length 2.54)
 					(name "1"
@@ -13277,7 +13277,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0dc13aa4-df7c-46dd-9566-21890a463ca0")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 92.71 185.42 0)
 			(hide yes)
 			(show_name no)
@@ -13338,7 +13338,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -13985,7 +13985,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1612126f-8aee-461d-bbde-db2d9d0a7a0f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 111.76 127 0)
 			(hide yes)
 			(show_name no)
@@ -14046,7 +14046,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -14063,7 +14063,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1803561c-6e36-40b7-8618-0e06f2072cd7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 111.76 38.1 0)
 			(hide yes)
 			(show_name no)
@@ -14124,7 +14124,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -14438,7 +14438,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1e8c3bf3-92f1-421d-b035-059a8164b4f7")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR07"
 			(at 237.49 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -14499,7 +14499,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -14652,7 +14652,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2b1014af-fb82-4668-8cf8-cbd6a7453cc4")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR09"
 			(at 284.48 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -14713,7 +14713,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR10")
 					(unit 1)
 				)
 			)
@@ -14931,7 +14931,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "310c471c-d61c-41fb-9015-51edb8514ec2")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR11"
 			(at 71.12 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -14992,7 +14992,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR12")
 					(unit 1)
 				)
 			)
@@ -15009,7 +15009,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3216ee9a-33b9-4a5d-8530-e6f974fd0988")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR13"
 			(at 121.92 127 0)
 			(hide yes)
 			(show_name no)
@@ -15070,7 +15070,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR14")
 					(unit 1)
 				)
 			)
@@ -15337,7 +15337,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "36f2513a-8275-475e-826c-86212c5cdbd1")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR15"
 			(at 304.8 166.37 0)
 			(hide yes)
 			(show_name no)
@@ -15399,7 +15399,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR16")
 					(unit 1)
 				)
 			)
@@ -15723,7 +15723,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "50368b0b-cf18-4438-a234-e9b5fdc4af9b")
-		(property "Reference" "?"
+		(property "Reference" "JP1"
 			(at 336.042 228.727 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15785,7 +15785,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "?")
+					(reference "JP1")
 					(unit 0)
 				)
 			)
@@ -15802,7 +15802,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "515292ce-76b9-4a12-b3ba-c7c20f88b287")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR17"
 			(at 156.21 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -15863,7 +15863,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR18")
 					(unit 1)
 				)
 			)
@@ -16663,7 +16663,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5c8217a2-d1a2-4367-87bc-92d60f376256")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR19"
 			(at 78.74 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -16724,7 +16724,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR20")
 					(unit 1)
 				)
 			)
@@ -16741,7 +16741,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5cc998de-355b-4736-9ff0-a8cb4150e4d8")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR21"
 			(at 93.98 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -16802,7 +16802,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR22")
 					(unit 1)
 				)
 			)
@@ -16898,7 +16898,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6f1f03a2-2e78-4a42-a708-91ca951804aa")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR23"
 			(at 304.8 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -16959,7 +16959,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR24")
 					(unit 1)
 				)
 			)
@@ -17279,7 +17279,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "744d5c65-3960-4cae-9b68-7a951442e136")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR25"
 			(at 43.18 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -17340,7 +17340,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR26")
 					(unit 1)
 				)
 			)
@@ -17357,7 +17357,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7e733b15-1672-44d3-b343-51bd9dce2e70")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR27"
 			(at 110.49 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -17418,7 +17418,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR28")
 					(unit 1)
 				)
 			)
@@ -18209,7 +18209,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d7e63d4-bf39-42dc-bd7c-f1e92ade2f23")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR29"
 			(at 54.61 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -18270,7 +18270,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR30")
 					(unit 1)
 				)
 			)
@@ -18560,7 +18560,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "99daeca4-18d5-472b-bd0d-936a56b5ba67")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR31"
 			(at 71.12 106.68 0)
 			(hide yes)
 			(show_name no)
@@ -18621,7 +18621,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR32")
 					(unit 1)
 				)
 			)
@@ -18638,7 +18638,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9b0fc397-8210-4964-a14a-6fce9c48d4ec")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR33"
 			(at 31.75 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -18699,7 +18699,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR34")
 					(unit 1)
 				)
 			)
@@ -18716,7 +18716,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c824884-d70a-4b17-b4aa-c6d84eabc721")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR35"
 			(at 273.05 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -18777,7 +18777,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR36")
 					(unit 1)
 				)
 			)
@@ -19958,7 +19958,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9167396-1a97-477f-9d49-61bfb79b05ac")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR37"
 			(at 43.18 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -20019,7 +20019,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR38")
 					(unit 1)
 				)
 			)
@@ -20315,7 +20315,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cde0cb3a-6dc4-4552-a185-ea27b161f66a")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR39"
 			(at 92.71 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -20376,7 +20376,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR40")
 					(unit 1)
 				)
 			)
@@ -20897,7 +20897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8cd7b93-5073-4704-bb95-c0544481a32f")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR41"
 			(at 124.46 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -20959,7 +20959,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR42")
 					(unit 1)
 				)
 			)
@@ -21112,7 +21112,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de7dbc2c-2546-461f-ad0f-360212fbc9aa")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR43"
 			(at 90.17 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -21173,7 +21173,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR44")
 					(unit 1)
 				)
 			)
@@ -21351,7 +21351,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e8da24b7-eccf-4f7e-b6ef-cb6682940f3e")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR45"
 			(at 100.33 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -21412,7 +21412,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "#PWR?")
+					(reference "#PWR46")
 					(unit 1)
 				)
 			)
