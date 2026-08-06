@@ -1,0 +1,191 @@
+(footprint "L1008"
+	(layer "F.Cu")
+	(at 0 0)
+	(property "Datasheet" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6232ef53-f011-4a4f-ace7-6f8369337d1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	(property "Description" ""
+			(at 0 0 180)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0669e169-221e-427c-8991-cd848cbdd148")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	(property "JLC_3DModel_Q" "5863d20e5e24416daeee77ca5366400d"
+			(at 0 0 180)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "ce7243b3-b22e-4050-bdaa-720e97d44011")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	(property "JLC_3D_Size" "2.5 2"
+			(at 0 0 180)
+			(layer "Cmts.User")
+			(hide yes)
+			(uuid "ece90970-38b4-4738-9b27-1203277c2336")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+			(pts
+				(xy 0.315 0.98) (xy 0.315 0.467) (xy 0.415 0.367) (xy 0.806 0.367) (xy 0.906 0.267) (xy 0.906 -0.267)
+				(xy 0.806 -0.367) (xy 0.415 -0.367) (xy 0.315 -0.467) (xy 0.315 -0.98) (xy 0.415 -1.08) (xy 1.885 -1.08)
+				(xy 1.985 -0.98) (xy 1.985 0.98) (xy 1.885 1.08) (xy 0.415 1.08)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "a320e67b-4ef6-41b3-81a6-00ede457db34")
+		)
+	(fp_poly
+			(pts
+				(xy -0.315 0.98) (xy -0.315 0.467) (xy -0.415 0.367) (xy -0.806 0.367) (xy -0.906 0.267) (xy -0.906 -0.267)
+				(xy -0.806 -0.367) (xy -0.415 -0.367) (xy -0.315 -0.467) (xy -0.315 -0.98) (xy -0.415 -1.08) (xy -1.885 -1.08)
+				(xy -1.985 -0.98) (xy -1.985 0.98) (xy -1.885 1.08) (xy -0.415 1.08)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Paste")
+			(uuid "98722071-64b9-4c14-8c92-fad899800a9b")
+		)
+	(fp_rect
+			(start -2.235 -1.33)
+			(end 2.235 1.33)
+			(stroke
+				(width 0.05)
+				(type default)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "56e7f646-302a-486c-8bd8-1b1aa7d2e9b2")
+		)
+	(fp_line
+			(start 1.25 1)
+			(end -1.25 1)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "fafebd89-965a-447d-9de0-5189c0c1b039")
+		)
+	(fp_line
+			(start 1.25 -1)
+			(end 1.25 1)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "23e0c2e0-8826-485e-972a-3deb2f5ad127")
+		)
+	(fp_line
+			(start -1.25 1)
+			(end -1.25 -1)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "b17eb63b-b810-4805-b486-c0759210e5f7")
+		)
+	(fp_line
+			(start -1.25 -1)
+			(end 1.25 -1)
+			(stroke
+				(width 0.051)
+				(type default)
+			)
+			(layer "F.Fab")
+			(uuid "83220cbe-9766-40d3-a4b2-6c4fb346c002")
+		)
+	(fp_poly
+			(pts
+				(xy -1.194567 0.977039) (xy -1.227039 0.944567) (xy -1.272961 0.944567) (xy -1.305433 0.977039)
+				(xy -1.305433 1.022961) (xy -1.272961 1.055433) (xy -1.227039 1.055433) (xy -1.194567 1.022961)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "F.Fab")
+			(uuid "2e763190-640f-407a-8ba2-5817784a76b2")
+		)
+	(fp_poly
+			(pts
+				(xy 0.75 -1) (xy 1.25 -1) (xy 1.25 1) (xy 0.75 1)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "a4046f39-ed59-43c3-aa1b-d79838332716")
+		)
+	(fp_poly
+			(pts
+				(xy -1.25 -1) (xy -0.75 -1) (xy -0.75 1) (xy -1.25 1)
+			)
+			(stroke
+				(width 0)
+				(type default)
+			)
+			(fill yes)
+			(layer "User.1")
+			(uuid "fac3e137-c9a4-4b79-a2f9-1f5be8e8d812")
+		)
+	(fp_text user "${REFERENCE}"
+			(at 0 0 180)
+			(layer "F.Fab")
+			(uuid "5b7baa69-3dd4-4819-827b-392a2b7ad9ea")
+			(effects
+				(font
+					(size 0.5 0.5)
+					(thickness 0.1)
+				)
+			)
+		)
+	(pad "1" smd rect
+			(at -1.1675 0 180)
+			(size 1.635 2.16)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "be35931d-20a6-4101-a0be-2ed1e7885961")
+		)
+	(pad "2" smd rect
+			(at 1.1675 0 180)
+			(size 1.635 2.16)
+			(layers "F.Cu" "F.Mask" "F.Paste")
+			(uuid "840e6ea8-8348-40c4-b2e1-7667ada70777")
+		)
+	(embedded_fonts no)
+)
