@@ -16296,7 +16296,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "44c1648e-6cd6-4ba3-97a4-c2af86e0a511")
-		(property "Reference" "RBOOT"
+		(property "Reference" "RBOOT1"
 			(at 181.61 176.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16440,7 +16440,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "RBOOT")
+					(reference "RBOOT1")
 					(unit 1)
 				)
 			)
@@ -20969,7 +20969,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c7a180c5-a8d1-43a7-8eea-4372175424be")
-		(property "Reference" "RPWDN"
+		(property "Reference" "RPWDN1"
 			(at 161.29 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21113,7 +21113,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
-					(reference "RPWDN")
+					(reference "RPWDN1")
 					(unit 1)
 				)
 			)

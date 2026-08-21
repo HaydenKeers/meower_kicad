@@ -1,17 +1,6 @@
 (fp_lib_table
-	(version 8)
-	(lib
-		(name "ProPrj_BCI-easyedapro")
-		(type "KiCad")
-		(uri "${KIPRJMOD}/ProPrj_BCI-easyedapro.pretty")
-		(options "")
-		(descr "EasyEDA imported footprints")
-	)
-	(lib
-		(name "normalized-easyedapro")
-		(type "KiCad")
-		(uri "${KIPRJMOD}/ProPrj_BCI-easyedapro.pretty")
-		(options "")
-		(descr "EasyEDA imported footprints (PCB nickname alias)")
-	)
+	(version 7)
+	(lib (name "ProPrj_BCI-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/ProPrj_BCI-easyedapro.pretty") (options "") (descr "EasyEDA imported footprints"))
+	(lib (name "normalized-easyedapro") (type "KiCad") (uri "${KIPRJMOD}/ProPrj_BCI-easyedapro.pretty") (options "") (descr "EasyEDA imported footprints (PCB nickname alias)"))
+	(lib (name "jlcpcb") (type "KiCad") (uri "${KIPRJMOD}/jlcpcb.pretty") (options "") (descr ""))
 )

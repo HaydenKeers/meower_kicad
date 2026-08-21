@@ -5694,6 +5694,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 242.57 76.2 0)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify left)
+		)
+		(uuid "0743cba4-5bfb-4973-be31-576946144276")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 242.57 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "AVDD"
 		(shape input)
 		(at 199.39 144.78 0)
@@ -6948,6 +6970,28 @@
 			)
 		)
 	)
+	(global_label "AVSS"
+		(shape input)
+		(at 237.49 76.2 180)
+		(effects
+			(font
+				(size 1.5748 1.5748)
+			)
+			(justify right)
+		)
+		(uuid "a367954c-fa77-44ae-af9a-74eb20a36b04")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 237.49 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+	)
 	(global_label "AVDD"
 		(shape input)
 		(at 347.98 144.78 0)
@@ -7716,6 +7760,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 240.03 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0a977682-1572-404a-829d-b6a3a4b20f9a")
+		(property "Reference" "NT5"
+			(at 240.284 76.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 240.03 77.724 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
+			(at 240.03 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 240.03 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "48e6ea15-9c5f-44d8-beb7-6c85a75ca0c0")
+		)
+		(pin "1"
+			(uuid "e5c280d5-f665-4884-998c-2ab10bfef40d")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
+					(reference "NT5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProPrj_BCI-easyedapro:GRM188R71H104KA93D")
 		(at 261.62 182.88 90)
 		(unit 1)
@@ -8146,7 +8270,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AVSS"
 			(at 111.76 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8935,7 +9059,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 240.03 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -10269,7 +10393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 240.03 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -11293,7 +11417,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AVSS"
 			(at 157.48 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -12075,7 +12199,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -12447,7 +12571,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "NetTie:NetTie-2_SMD_Pad2.0mm"
 			(at 241.3 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -13597,7 +13721,7 @@
 				)
 			)
 		)
-		(property "Value" "GND"
+		(property "Value" "AVSS"
 			(at 105.41 218.44 0)
 			(hide yes)
 			(show_name no)
