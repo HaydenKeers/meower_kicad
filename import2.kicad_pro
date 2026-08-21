@@ -648,7 +648,7 @@
         "uuid": "06cae45c-d474-473f-93a9-05a684cc4e1b"
       }
     ],
-    "used_designators": "ADC3-4,C1-16,C43-91,C222-225,C229-230,C235-238,D6,D12-20,#PWR1-33,RD3-4,C_adc1,Csrb1-4,Cbias2,Cbias5,CBIAS6,CP2,F3-4,H1-2,H4,L3-4,LED3-4,P2,RA2,Q2,R1-7,R9-37,R_adc3-4,Rb8-14,RBIAS2-3,RBIAS6,RL3-5,Rsrb1-4,SW1,SW5,U1-9,U17-19,USB2,1\\-2,NT1-4",
+    "used_designators": "ADC3-4,C1-16,C43-91,C222-225,C229-230,C235-238,D6,D12-20,#PWR1-33,#PWR72-75,RD3-4,C_adc1,Csrb1-4,Cbias2,Cbias5,CBIAS6,CP2,F3-4,H1-2,H4,L3-4,LED3-4,P2,RA2,Q2,R1-7,R9-37,R_adc3-4,Rb8-14,RBIAS2-3,RBIAS6,RL3-5,Rsrb1-4,SW1-2,SW5,U1-9,U17-19,USB2,1\\-2,NT1-4,RBOOT1",
     "variants": []
   },
   "sheets": [

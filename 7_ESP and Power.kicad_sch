@@ -8931,6 +8931,245 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "jlcpcb:PTS810SJM250SMTRLFS"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PTS810SJM250SMTRLFS"
+				(at 0 -8.89 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "jlcpcb:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6"
+				(at 0 -11.43 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_C-K_PTS810SJM250SMTRLFS_C-K-PTS810SJM250SMTRLFS_C116501.html"
+				(at 0 -13.97 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Manufacturer" "C&K"
+				(at 0 -16.51 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "MPN" "PTS810SJM250SMTRLFS"
+				(at 0 -19.05 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "LCSC Part" "C116501"
+				(at 0 -21.59 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Tactile Switches"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PTS810SJM250SMTRLFS_0_1"
+				(polyline
+					(pts
+						(xy -5.08 1.27) (xy 5.08 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -3.81) (xy 5.08 -3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -0.25)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.29) (xy -1.27 -0.51)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -2.29)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 1.27 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 1.27 180)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -10.16 -3.81 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 10.16 -3.81 180)
+					(length 5.08)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -9548,6 +9787,12 @@
 		(uuid "65f621d9-c381-4ee3-bd52-5b0c86958421")
 	)
 	(junction
+		(at 162.56 156.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6af9fd0e-3fcc-4ed2-b75f-b49c60a0d41d")
+	)
+	(junction
 		(at 204.47 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9708,12 +9953,12 @@
 		(uuid "0bc777f4-71b8-4a4c-a4e2-3e7a2d13652b")
 	)
 	(no_connect
-		(at 204.47 152.4)
-		(uuid "520d4ab8-00f1-49f8-ac29-9262ecc658a5")
+		(at 173.99 198.12)
+		(uuid "168e1304-7db3-4e45-a96b-cfd9fbf6f3d6")
 	)
 	(no_connect
-		(at 181.61 163.83)
-		(uuid "6b4107ad-e8bb-444c-b44e-8f3bba59c3a9")
+		(at 204.47 152.4)
+		(uuid "520d4ab8-00f1-49f8-ac29-9262ecc658a5")
 	)
 	(no_connect
 		(at 152.4 62.23)
@@ -9728,12 +9973,24 @@
 		(uuid "a6cbe23a-32f8-4d43-83a5-c72eef3551e0")
 	)
 	(no_connect
+		(at 168.91 198.12)
+		(uuid "b92f4730-22f7-45ac-b1e4-a780f82ba2bf")
+	)
+	(no_connect
 		(at 181.61 118.11)
 		(uuid "d6172323-668a-452e-ad19-45e1c53637c2")
 	)
 	(no_connect
 		(at 181.61 153.67)
 		(uuid "da925a23-0a7b-447d-9864-042b27bf10f5")
+	)
+	(no_connect
+		(at 153.67 198.12)
+		(uuid "f0d422d3-2061-4a86-a9c9-221b3a9a05c4")
+	)
+	(no_connect
+		(at 158.75 198.12)
+		(uuid "f9343b30-04be-4a3d-b39e-13d2e5455ed7")
 	)
 	(wire
 		(pts
@@ -9844,6 +10101,16 @@
 			(type default)
 		)
 		(uuid "0db98fd9-b057-4f7e-9e37-f3a0371feabe")
+	)
+	(wire
+		(pts
+			(xy 179.07 163.83) (xy 181.61 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0f0ba77e-ad7d-4ed9-844a-e7f0a68d790b")
 	)
 	(wire
 		(pts
@@ -11187,6 +11454,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 177.8) (xy 173.99 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4db8aec-f5e7-45e8-b2dd-9ffbc6b911c6")
+	)
+	(wire
+		(pts
 			(xy 143.51 33.02) (xy 144.78 33.02)
 		)
 		(stroke
@@ -11267,13 +11544,23 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 156.21) (xy 180.34 156.21)
+			(xy 181.61 156.21) (xy 162.56 156.21)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "cc07f4a0-4dc2-47f6-8ed7-4911f833b08e")
+	)
+	(wire
+		(pts
+			(xy 162.56 156.21) (xy 161.29 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd0310a1-c02d-47bd-aebc-042b5d79508b")
 	)
 	(wire
 		(pts
@@ -11835,6 +12122,16 @@
 		)
 		(uuid "27062505-952a-4632-94ce-f7a9e6f91343")
 	)
+	(label "BOOT"
+		(at 171.45 158.75 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "31e5ed65-beda-432a-a482-8c9a2689987f")
+	)
 	(label "HOST_UART_TX"
 		(at 215.9 142.24 0)
 		(effects
@@ -11864,16 +12161,6 @@
 			(justify left bottom)
 		)
 		(uuid "73c0b3f8-3b86-46ee-9104-6016c3e3dbaf")
-	)
-	(label "HOST_INT"
-		(at 171.45 158.75 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "7a97839b-8c54-4ba3-a04d-c897ffd5f562")
 	)
 	(label "IO15"
 		(at 171.45 151.13 180)
@@ -11914,6 +12201,36 @@
 			(justify left bottom)
 		)
 		(uuid "a7a9e920-e876-4a2e-ba17-1e3ef8db3bc2")
+	)
+	(label "RST"
+		(at 158.75 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "a82badb6-5e52-417d-9a3f-1a1c7766540e")
+	)
+	(label "RST"
+		(at 176.53 120.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ba26f4cd-a4d5-4f4b-8fa9-3865edd37999")
+	)
+	(label "HOST_INT"
+		(at 179.07 163.83 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc2bf3f5-66ee-4c9b-8777-31d07f9488b8")
 	)
 	(label "HOST_RESET_N"
 		(at 262.89 142.24 180)
@@ -11984,6 +12301,16 @@
 			(justify left bottom)
 		)
 		(uuid "d1e112a0-3a37-4cfc-88e6-ecdf60dc068d")
+	)
+	(label "BOOT"
+		(at 173.99 177.8 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ec7b2ce0-e5be-417d-97f5-260231e86fee")
 	)
 	(label "HOST_WAKE"
 		(at 180.34 168.91 180)
@@ -12219,6 +12546,30 @@
 			)
 		)
 	)
+	(global_label "3V3_MCU"
+		(shape output)
+		(at 162.56 146.05 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "21db325b-72a2-4037-b4dd-b1fce14b2e57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 151.0477 146.05 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(global_label "VIN"
 		(shape input)
 		(at 34.29 109.22 180)
@@ -12265,7 +12616,7 @@
 	)
 	(global_label "PWDN"
 		(shape bidirectional)
-		(at 180.34 156.21 180)
+		(at 161.29 156.21 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -12275,7 +12626,7 @@
 		)
 		(uuid "293f7568-9112-4229-b333-3b9b7029e460")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.9216 156.21 0)
+			(at 151.8716 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12608,6 +12959,30 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+	)
+	(global_label "3V3_MCU"
+		(shape output)
+		(at 189.23 177.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f57187f-dce7-4e07-bd24-6c7ab296a62c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.7423 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 	)
@@ -13345,6 +13720,119 @@
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
 					(reference "#PWR017")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ProPrj_BCI-easyedapro:GRM219R61A106KE44D")
+		(at 158.75 172.72 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "0b4a412b-3b65-486a-859d-966e77d0cae6")
+		(property "Reference" "C224"
+			(at 152.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 161.798 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "normalized-easyedapro:C0603"
+			(at 32.55 63.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://jlc-prod-smt.oss-eu-central-1.aliyuncs.com/smtDataManualFile/8586178237064228864-C5673.pdf?response-content-disposition=attachment%3B%20filename%3DC5673.pdf%3B%20filename%2A%3DUTF-8%27%27C5673.pdf&x-oss-date=20260821T124956Z&x-oss-expires=1800&x-oss-security-token=CAISgAN1q6Ft5B2yfSjIr5vsKtH82aUSz4XTbWTgvGQRXboV2rDvrzz2IHhMdHJsAOodtv0%2FmmhT6PkclqRLcbhpcmfjV%2BZHzLB8qbkcgkQr557b16cNrbH4M4H6aXeirtuwDsz9SNTCALjPD3nPii50x5bjaDymRCbLGJaViJlhHLN1Ow6jdmhpCctxLAlvo9NgFxm3D%2Fu2NQPwiWf9FVdhvhEG6Vly8qOi2MaRmFy8yFTx0b0SvJ%2BjYMrmPctoN9JnSdC5mfdzau3a1TJ84gRD0a5wkaVA1zbDs5bfISEIuUzebreLqY03dV4mOvdqIcMe8qigz88fk%2FfIioH6xyxKOexoSCnFTOiiupCcQLPyao9jLu6iayqViY7QaIOTqQohZmkAMwVOasAsI3Ngh4zF97Qt0cVNkXO9gWfLI8DtuMleWkopXO8is6HD0eS19jklBdzSlusJRAJJUVBflCeKEaRNSAd3WGhEfM2%2BBt4QT30w5N2u00S8OSMIAYg5uaKWD5sagAGBQd%2BinUF%2BDJv%2FOkwLLe8%2Bn5TtGU8LqFB5Tb0FR1hIj7oQVwmkjPv%2FyLZyQmd43p%2FmQfDSuGcTprccpI4zzESgXIbUjT39LqKlDSWhNx6ffCOc5zPHz0saKl%2FMYFLN0KxzvWz%2FgIZ9m89GzPZp8Qz%2BBC747GP0GsdxGIkEY%2FLgWCAA&x-oss-signature-version=OSS4-HMAC-SHA256&x-oss-credential=STS.NXYakH4z3xG8oBQXdDQ595uDM%2F20260821%2Feu-central-1%2Foss%2Faliyun_v4_request&x-oss-signature=6ecb4fb9f0470da55b469640464e6485f2616660b074a3d1d87da9ef4d8bd2d0"
+			(at 158.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 158.75 172.72 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C5673"
+			(at 32.55 63.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 32.55 63.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part" "CL10A105KA8NNNC"
+			(at 32.55 63.62 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f6d8d053-bd3d-4ba2-95c4-af222a5af842")
+		)
+		(pin "2"
+			(uuid "ec79390e-7057-4ba1-b834-775464b96ce6")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
+					(reference "C224")
 					(unit 1)
 				)
 			)
@@ -15797,6 +16285,246 @@
 		)
 	)
 	(symbol
+		(lib_id "ProPrj_BCI-easyedapro:0402WGF2001TCE")
+		(at 184.15 177.8 0)
+		(mirror y)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "44c1648e-6cd6-4ba3-97a4-c2af86e0a511")
+		(property "Reference" "RBOOT"
+			(at 181.61 176.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 181.61 181.61 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "ProPrj_BCI-easyedapro:R0402"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistors Resistance:2kΩ Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part" "0402WGJ0103TCE"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C22531"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "10kΩ ±1% 62.5mW 厚膜电阻"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 184.15 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "96066f37-6e9e-4030-8bf5-448d0e3d724d")
+		)
+		(pin "2"
+			(uuid "777e3968-aeeb-40a6-b3c6-eb26e87cde3e")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
+					(reference "RBOOT")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 153.67 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4b1b694f-9f78-4017-b367-b9c489d839e6")
+		(property "Reference" "#PWR072"
+			(at 153.67 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 153.67 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 153.67 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf8dae1c-cf84-42bb-924f-6aa610a2ba2d")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
+					(reference "#PWR072")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProPrj_BCI-easyedapro:Ground-GND")
 		(at 156.21 31.75 180)
 		(unit 1)
@@ -16205,6 +16933,84 @@
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
 					(reference "RL1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 168.91 177.8 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5394dad4-f933-44e5-ab58-699c95e1991b")
+		(property "Reference" "#PWR075"
+			(at 168.91 171.45 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 168.91 172.72 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 168.91 177.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a2c885d6-5913-4348-8169-b3591ae34752")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
+					(reference "#PWR075")
 					(unit 1)
 				)
 			)
@@ -17424,6 +18230,128 @@
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
 					(reference "#PWR28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jlcpcb:PTS810SJM250SMTRLFS")
+		(at 170.18 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8240c506-b4f2-4348-a8d6-25ec2fdc5b37")
+		(property "Reference" "SW2"
+			(at 175.26 186.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTS810SJM250SMTRLFS"
+			(at 175.26 189.2299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "jlcpcb:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6"
+			(at 181.61 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_C-K_PTS810SJM250SMTRLFS_C-K-PTS810SJM250SMTRLFS_C116501.html"
+			(at 184.15 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 186.69 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTS810SJM250SMTRLFS"
+			(at 189.23 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C116501"
+			(at 191.77 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b8f7ce96-7317-4497-b61f-7a04e43522cc")
+		)
+		(pin "1"
+			(uuid "ce350f6b-5d7a-410f-8424-42eb7cd53a93")
+		)
+		(pin "3"
+			(uuid "a49e0817-f966-48ce-ae1e-c52fce18e7ad")
+		)
+		(pin "4"
+			(uuid "4e1f5660-83b1-4b13-b1c2-5d6650e87345")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -20030,6 +20958,168 @@
 		)
 	)
 	(symbol
+		(lib_id "ProPrj_BCI-easyedapro:0402WGF2001TCE")
+		(at 162.56 151.13 90)
+		(mirror x)
+		(unit 1)
+		(body_style 0)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c7a180c5-a8d1-43a7-8eea-4372175424be")
+		(property "Reference" "RPWDN"
+			(at 161.29 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Value" "10kΩ"
+			(at 166.37 153.67 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Footprint" "ProPrj_BCI-easyedapro:R0402"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://atta.szlcsc.com/upload/public/pdf/source/20200306/C422600_1E6D84923E4A46A82E41ADD87F860B5C.pdf"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Type:Thick Film Resistors Resistance:2kΩ Tolerance:±1% Tolerance:±1% Power(Watts): Overload Voltage (Max): Temperature Coefficient:±100ppm/℃ Temperature Coefficient:±100ppm/℃ Operating Temperature Range:-55℃~+155℃ Operating Temperature Range:-55℃~+155℃"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Manufacturer Part" "0402WGJ0103TCE"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "UNI-ROYAL(厚声)"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier Part" "C22531"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Supplier" "LCSC"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part Name" "10kΩ ±1% 62.5mW 厚膜电阻"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Overload Voltage (Max)" "50V"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(property "Power(Watts)" "62.5mW"
+			(at 162.56 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.2446 1.2446)
+				)
+				(justify right bottom)
+			)
+		)
+		(pin "1"
+			(uuid "6a275b12-aaac-45c4-ae30-d3f39725ab9d")
+		)
+		(pin "2"
+			(uuid "95e082d3-2814-4932-8fda-24eab901b4d0")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
+					(reference "RPWDN")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProPrj_BCI-easyedapro:Ground-GND")
 		(at 43.18 119.38 0)
 		(unit 1)
@@ -21500,6 +22590,128 @@
 		)
 	)
 	(symbol
+		(lib_id "jlcpcb:PTS810SJM250SMTRLFS")
+		(at 154.94 187.96 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5c9c967-162d-4c3e-96fe-8181e15dc338")
+		(property "Reference" "SW1"
+			(at 160.02 186.6899 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "PTS810SJM250SMTRLFS"
+			(at 160.02 189.2299 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "jlcpcb:KEY-SMD_4P-L4.2-W3.2-P2.20-LS4.6"
+			(at 166.37 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Tactile-Switches_C-K_PTS810SJM250SMTRLFS_C-K-PTS810SJM250SMTRLFS_C116501.html"
+			(at 168.91 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 154.94 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 171.45 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "PTS810SJM250SMTRLFS"
+			(at 173.99 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C116501"
+			(at 176.53 187.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "3d084a10-b757-4ddb-9ade-2c53e7865e7c")
+		)
+		(pin "1"
+			(uuid "7fc3e932-1d4f-4563-be22-34aea5cf3963")
+		)
+		(pin "3"
+			(uuid "2a0d1627-20ac-4a2a-9fce-92e14d1eca59")
+		)
+		(pin "4"
+			(uuid "074f3149-48c6-4647-9f60-67be5b5e9bbd")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProPrj_BCI-easyedapro:Ground-GND")
 		(at 100.33 173.99 180)
 		(unit 1)
@@ -21572,6 +22784,84 @@
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
 					(reference "#PWR46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 158.75 167.64 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "edd70a40-5f75-4904-94ca-abee1e390778")
+		(property "Reference" "#PWR073"
+			(at 158.75 161.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 158.75 162.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 158.75 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 158.75 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 158.75 167.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "737ce361-6932-41c7-89d8-ffa5acf6deac")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/d7335401-30df-4181-8165-2b729c8075df"
+					(reference "#PWR073")
 					(unit 1)
 				)
 			)

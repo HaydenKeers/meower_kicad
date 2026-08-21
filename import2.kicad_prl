@@ -77,6 +77,8 @@
       false,
       false,
       false,
+      false,
+      false,
       false
     ],
     "col_order": [
@@ -89,7 +91,9 @@
       6,
       7,
       8,
-      9
+      9,
+      10,
+      11
     ],
     "col_widths": [
       162,
@@ -100,6 +104,8 @@
       91,
       91,
       71,
+      91,
+      91,
       91,
       91
     ],
@@ -128,7 +134,7 @@
       "labels": true,
       "lockedItems": false,
       "otherItems": true,
-      "pins": false,
+      "pins": true,
       "ruleAreas": true,
       "symbols": true,
       "text": true,
