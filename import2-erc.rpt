@@ -1,0 +1,1703 @@
+ERC report (2026-08-06T23:31:13, Encoding UTF8)
+Report includes: Errors, Warnings
+
+***** Sheet /ADCs/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(254.00 mm, 218.44 mm): Symbol #PWR Pin 1 [GND, Power input, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(326.39 mm, 134.62 mm): Symbol ADC2 Pin 63 [BIASOUT, Unspecified, Line]
+[pin_not_connected]: Pin not connected
+    ; error
+    @(326.39 mm, 137.16 mm): Symbol ADC2 Pin 62 [BIASIN, Unspecified, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(87.63 mm, 297.18 mm): Symbol F1 [Sheet-Symbol_A4]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(105.41 mm, 218.44 mm): Symbol #PWR36 [Ground-GND]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(107.95 mm, 196.85 mm): Symbol C17 Pin 2 [2, Unspecified, Line]
+    @(116.84 mm, 196.85 mm): Symbol C18 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(107.95 mm, 207.01 mm): Symbol C17 Pin 1 [1, Unspecified, Line]
+    @(116.84 mm, 207.01 mm): Symbol C18 Pin 1 [1, Unspecified, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(111.76 mm, 187.96 mm): Symbol #PWR08 [Ground-GND]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(113.03 mm, 177.80 mm): Symbol C25 Pin 2 [2, Unspecified, Line]
+    @(137.16 mm, 227.33 mm): Symbol C27 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(113.03 mm, 187.96 mm): Symbol C25 Pin 1 [1, Unspecified, Line]
+    @(111.76 mm, 187.96 mm): Symbol #PWR08 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(116.84 mm, 207.01 mm): Symbol C18 Pin 1 [1, Unspecified, Line]
+    @(128.27 mm, 213.36 mm): Symbol C19 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(121.92 mm, 177.80 mm): Symbol C24 Pin 2 [2, Unspecified, Line]
+    @(113.03 mm, 177.80 mm): Symbol C25 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(121.92 mm, 187.96 mm): Symbol C24 Pin 1 [1, Unspecified, Line]
+    @(113.03 mm, 187.96 mm): Symbol C25 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(128.27 mm, 213.36 mm): Symbol C19 Pin 2 [2, Unspecified, Line]
+    @(133.35 mm, 213.36 mm): Symbol C21 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(133.35 mm, 213.36 mm): Symbol C21 Pin 2 [2, Unspecified, Line]
+    @(137.16 mm, 237.49 mm): Symbol C27 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(137.16 mm, 227.33 mm): Symbol C27 Pin 2 [2, Unspecified, Line]
+    @(261.62 mm, 177.80 mm): Symbol C36 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(137.16 mm, 237.49 mm): Symbol C27 Pin 1 [1, Unspecified, Line]
+    @(157.48 mm, 238.76 mm): Symbol #PWR20 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(142.24 mm, 215.90 mm): Symbol C20 Pin 1 [1, Unspecified, Line]
+    @(133.35 mm, 213.36 mm): Symbol C21 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 132.08 mm): Symbol ADC1 Pin 1 [IN8N, Unspecified, Line]
+    @(119.38 mm, 8.89 mm): Symbol R116 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 134.62 mm): Symbol ADC1 Pin 2 [IN8P, Unspecified, Line]
+    @(119.38 mm, 29.21 mm): Symbol R115 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 137.16 mm): Symbol ADC1 Pin 3 [IN7N, Unspecified, Line]
+    @(119.38 mm, 39.37 mm): Symbol R114 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 139.70 mm): Symbol ADC1 Pin 4 [IN7P, Unspecified, Line]
+    @(119.38 mm, 59.69 mm): Symbol R113 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 142.24 mm): Symbol ADC1 Pin 5 [IN6N, Unspecified, Line]
+    @(119.38 mm, 69.85 mm): Symbol R112 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 144.78 mm): Symbol ADC1 Pin 6 [IN6P, Unspecified, Line]
+    @(119.38 mm, 90.17 mm): Symbol R111 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 147.32 mm): Symbol ADC1 Pin 7 [IN5N, Unspecified, Line]
+    @(119.38 mm, 100.33 mm): Symbol R110 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 149.86 mm): Symbol ADC1 Pin 8 [IN5P, Unspecified, Line]
+    @(119.38 mm, 120.65 mm): Symbol R109 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 152.40 mm): Symbol ADC1 Pin 9 [IN4N, Unspecified, Line]
+    @(119.38 mm, 130.81 mm): Symbol R108 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 154.94 mm): Symbol ADC1 Pin 10 [IN4P, Unspecified, Line]
+    @(119.38 mm, 151.13 mm): Symbol R107 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 157.48 mm): Symbol ADC1 Pin 11 [IN3N, Unspecified, Line]
+    @(119.38 mm, 161.29 mm): Symbol R106 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 160.02 mm): Symbol ADC1 Pin 12 [IN3P, Unspecified, Line]
+    @(119.38 mm, 181.61 mm): Symbol R105 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 162.56 mm): Symbol ADC1 Pin 13 [IN2N, Unspecified, Line]
+    @(119.38 mm, 191.77 mm): Symbol R104 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 165.10 mm): Symbol ADC1 Pin 14 [IN2P, Unspecified, Line]
+    @(119.38 mm, 212.09 mm): Symbol R103 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 167.64 mm): Symbol ADC1 Pin 15 [IN1N, Unspecified, Line]
+    @(119.38 mm, 222.25 mm): Symbol R102 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 170.18 mm): Symbol ADC1 Pin 16 [IN1P, Unspecified, Line]
+    @(119.38 mm, 242.57 mm): Symbol R101 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 172.72 mm): Symbol ADC1 Pin 17 [SRB1, Unspecified, Line]
+    @(55.88 mm, 8.89 mm): Symbol Rsrb11 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(147.32 mm, 175.26 mm): Symbol ADC1 Pin 18 [SRB2, Unspecified, Line]
+    @(55.88 mm, 29.21 mm): Symbol Rsrb12 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 177.80 mm): Symbol ADC1 Pin 19 [AVDD, Unspecified, Line]
+    @(147.32 mm, 182.88 mm): Symbol ADC1 Pin 21 [AVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 180.34 mm): Symbol ADC1 Pin 20 [AVSS, Unspecified, Line]
+    @(147.32 mm, 187.96 mm): Symbol ADC1 Pin 23 [AVSS, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 182.88 mm): Symbol ADC1 Pin 21 [AVDD, Unspecified, Line]
+    @(147.32 mm, 185.42 mm): Symbol ADC1 Pin 22 [AVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 185.42 mm): Symbol ADC1 Pin 22 [AVDD, Unspecified, Line]
+    @(121.92 mm, 177.80 mm): Symbol C24 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 187.96 mm): Symbol ADC1 Pin 23 [AVSS, Unspecified, Line]
+    @(147.32 mm, 193.04 mm): Symbol ADC1 Pin 25 [VREFN, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 190.50 mm): Symbol ADC1 Pin 24 [VREFP, Unspecified, Line]
+    @(116.84 mm, 196.85 mm): Symbol C18 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 193.04 mm): Symbol ADC1 Pin 25 [VREFN, Unspecified, Line]
+    @(147.32 mm, 208.28 mm): Symbol ADC1 Pin 31 [RESV1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 195.58 mm): Symbol ADC1 Pin 26 [VCAP4, Unspecified, Line]
+    @(128.27 mm, 203.20 mm): Symbol C19 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 200.66 mm): Symbol ADC1 Pin 28 [VCAP1, Unspecified, Line]
+    @(133.35 mm, 203.20 mm): Symbol C21 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 205.74 mm): Symbol ADC1 Pin 30 [VCAP2, Unspecified, Line]
+    @(142.24 mm, 205.74 mm): Symbol C20 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 208.28 mm): Symbol ADC1 Pin 31 [RESV1, Unspecified, Line]
+    @(147.32 mm, 210.82 mm): Symbol ADC1 Pin 32 [AVSS, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(147.32 mm, 210.82 mm): Symbol ADC1 Pin 32 [AVSS, Unspecified, Line]
+    @(142.24 mm, 215.90 mm): Symbol C20 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(149.86 mm, 227.33 mm): Symbol C26 Pin 2 [2, Unspecified, Line]
+    @(137.16 mm, 227.33 mm): Symbol C27 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(149.86 mm, 237.49 mm): Symbol C26 Pin 1 [1, Unspecified, Line]
+    @(157.48 mm, 238.76 mm): Symbol #PWR20 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(157.48 mm, 238.76 mm): Symbol #PWR20 [Ground-GND]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(177.80 mm, 134.62 mm): Symbol ADC1 Pin 63 [BIASOUT, Unspecified, Line]
+    @(196.85 mm, 137.16 mm): Symbol RBIAS1 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 137.16 mm): Symbol ADC1 Pin 62 [BIASIN, Unspecified, Line]
+    @(177.80 mm, 134.62 mm): Symbol ADC1 Pin 63 [BIASOUT, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(177.80 mm, 139.70 mm): Symbol ADC1 Pin 61 [BIASINV, Unspecified, Line]
+    @(207.01 mm, 137.16 mm): Symbol RBIAS1 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(177.80 mm, 142.24 mm): Symbol ADC1 Pin 60 [BIASREF, Unspecified, Line]
+    @(182.88 mm, 142.24 mm): Symbol #PWR18 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 144.78 mm): Symbol ADC1 Pin 59 [AVDD, Unspecified, Line]
+    @(121.92 mm, 177.80 mm): Symbol C24 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 147.32 mm): Symbol ADC1 Pin 58 [AVSS, Unspecified, Line]
+    @(177.80 mm, 142.24 mm): Symbol ADC1 Pin 60 [BIASREF, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 149.86 mm): Symbol ADC1 Pin 57 [AVSS, Unspecified, Line]
+    @(177.80 mm, 147.32 mm): Symbol ADC1 Pin 58 [AVSS, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 152.40 mm): Symbol ADC1 Pin 56 [AVDD, Unspecified, Line]
+    @(177.80 mm, 144.78 mm): Symbol ADC1 Pin 59 [AVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 154.94 mm): Symbol ADC1 Pin 55 [VCAP3, Unspecified, Line]
+    @(198.12 mm, 154.94 mm): Symbol C22 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 157.48 mm): Symbol ADC1 Pin 54 [AVDD1, Unspecified, Line]
+    @(177.80 mm, 152.40 mm): Symbol ADC1 Pin 56 [AVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 160.02 mm): Symbol ADC1 Pin 53 [AVSS1, Unspecified, Line]
+    @(177.80 mm, 149.86 mm): Symbol ADC1 Pin 57 [AVSS, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 162.56 mm): Symbol ADC1 Pin 52 [CLKSEL, Unspecified, Line]
+    @(209.55 mm, 173.99 mm): Symbol C28 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 165.10 mm): Symbol ADC1 Pin 51 [DGND, Unspecified, Line]
+    @(177.80 mm, 160.02 mm): Symbol ADC1 Pin 53 [AVSS1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 167.64 mm): Symbol ADC1 Pin 50 [DVDD, Unspecified, Line]
+    @(177.80 mm, 162.56 mm): Symbol ADC1 Pin 52 [CLKSEL, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 170.18 mm): Symbol ADC1 Pin 49 [DGND, Unspecified, Line]
+    @(177.80 mm, 165.10 mm): Symbol ADC1 Pin 51 [DGND, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 172.72 mm): Symbol ADC1 Pin 48 [DVDD, Unspecified, Line]
+    @(177.80 mm, 167.64 mm): Symbol ADC1 Pin 50 [DVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(177.80 mm, 185.42 mm): Symbol ADC1 Pin 43 [DOUT, Unspecified, Line]
+    @(181.61 mm, 113.03 mm): Symbol U2 Pin 5 [IO2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 190.50 mm): Symbol ADC1 Pin 41 [DAISY_IN, Unspecified, Line]
+    @(326.39 mm, 185.42 mm): Symbol ADC2 Pin 43 [DOUT, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 193.04 mm): Symbol ADC1 Pin 40 [SCLK, Unspecified, Line]
+    @(326.39 mm, 193.04 mm): Symbol ADC2 Pin 40 [SCLK, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(177.80 mm, 195.58 mm): Symbol ADC1 Pin 39 [CS#, Unspecified, Line]
+    @(181.61 mm, 133.35 mm): Symbol U2 Pin 13 [IO1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 198.12 mm): Symbol ADC1 Pin 38 [START, Unspecified, Line]
+    @(326.39 mm, 198.12 mm): Symbol ADC2 Pin 38 [START, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 200.66 mm): Symbol ADC1 Pin 37 [CLK, Unspecified, Line]
+    @(326.39 mm, 200.66 mm): Symbol ADC2 Pin 37 [CLK, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 203.20 mm): Symbol ADC1 Pin 36 [RESET#, Unspecified, Line]
+    @(326.39 mm, 203.20 mm): Symbol ADC2 Pin 36 [RESET#, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 205.74 mm): Symbol ADC1 Pin 35 [PWDN#, Unspecified, Line]
+    @(326.39 mm, 205.74 mm): Symbol ADC2 Pin 35 [PWDN#, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(177.80 mm, 208.28 mm): Symbol ADC1 Pin 34 [DIN, Unspecified, Line]
+    @(326.39 mm, 208.28 mm): Symbol ADC2 Pin 34 [DIN, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(177.80 mm, 210.82 mm): Symbol ADC1 Pin 33 [DGND, Unspecified, Line]
+    @(180.34 mm, 213.36 mm): Symbol #PWR Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(180.34 mm, 213.36 mm): Symbol #PWR [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(182.88 mm, 142.24 mm): Symbol #PWR18 [Ground-GND]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(184.15 mm, 175.26 mm): Global Label 'INT'
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(185.42 mm, 149.86 mm): Symbol #PWR30 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(185.42 mm, 170.18 mm): Symbol #PWR06 [Ground-GND]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(198.12 mm, 154.94 mm): Symbol C22 Pin 1 [1, Unspecified, Line]
+    @(208.28 mm, 154.94 mm): Symbol C23 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(198.12 mm, 165.10 mm): Symbol C22 Pin 2 [2, Unspecified, Line]
+    @(208.28 mm, 165.10 mm): Symbol C23 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(208.28 mm, 165.10 mm): Symbol C23 Pin 2 [2, Unspecified, Line]
+    @(210.82 mm, 165.10 mm): Symbol #PWR14 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(209.55 mm, 173.99 mm): Symbol C28 Pin 2 [2, Unspecified, Line]
+    @(218.44 mm, 173.99 mm): Symbol C29 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(209.55 mm, 184.15 mm): Symbol C28 Pin 1 [1, Unspecified, Line]
+    @(218.44 mm, 184.15 mm): Symbol C29 Pin 1 [1, Unspecified, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(210.82 mm, 165.10 mm): Symbol #PWR14 [Ground-GND]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(218.44 mm, 173.99 mm): Symbol C29 Pin 2 [2, Unspecified, Line]
+    @(237.49 mm, 82.55 mm): Symbol JP5 Pin 1 [Pin1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(218.44 mm, 184.15 mm): Symbol C29 Pin 1 [1, Unspecified, Line]
+    @(220.98 mm, 184.15 mm): Symbol #PWR22 Pin 1 [GND, Power input, Line]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(220.98 mm, 77.47 mm): Horizontal Wire, length 15.24 mm
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(220.98 mm, 184.15 mm): Symbol #PWR22 [Ground-GND]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(228.60 mm, 77.47 mm): Label '3V3'
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(238.76 mm, 77.47 mm): Symbol JP3 [Short-Symbol-Auto]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(240.03 mm, 82.55 mm): Symbol JP5 [Short-Symbol]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(240.03 mm, 87.63 mm): Symbol JP4 [Short-Symbol]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(240.03 mm, 92.71 mm): Symbol JP1 [Short-Symbol]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(240.03 mm, 97.79 mm): Symbol JP2 [Short-Symbol]
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(245.11 mm, 82.55 mm): Global Label '3V3_ADC'
+    @(248.92 mm, 77.47 mm): Label '3V3_ADC'
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(254.00 mm, 218.44 mm): Symbol #PWR [Ground-GND]
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(241.30 mm, 77.47 mm): Horizontal Wire, length 15.24 mm
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(256.54 mm, 196.85 mm): Symbol C32 Pin 2 [2, Unspecified, Line]
+    @(265.43 mm, 196.85 mm): Symbol C38 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(256.54 mm, 207.01 mm): Symbol C32 Pin 1 [1, Unspecified, Line]
+    @(265.43 mm, 207.01 mm): Symbol C38 Pin 1 [1, Unspecified, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(260.35 mm, 187.96 mm): Symbol #PWR28 [Ground-GND]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(261.62 mm, 177.80 mm): Symbol C36 Pin 2 [2, Unspecified, Line]
+    @(270.51 mm, 177.80 mm): Symbol C40 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(261.62 mm, 187.96 mm): Symbol C36 Pin 1 [1, Unspecified, Line]
+    @(260.35 mm, 187.96 mm): Symbol #PWR28 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(265.43 mm, 207.01 mm): Symbol C38 Pin 1 [1, Unspecified, Line]
+    @(254.00 mm, 218.44 mm): Symbol #PWR Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(270.51 mm, 177.80 mm): Symbol C40 Pin 2 [2, Unspecified, Line]
+    @(237.49 mm, 87.63 mm): Symbol JP4 Pin 1 [Pin1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(270.51 mm, 187.96 mm): Symbol C40 Pin 1 [1, Unspecified, Line]
+    @(260.35 mm, 187.96 mm): Symbol #PWR28 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(276.86 mm, 209.55 mm): Symbol C31 Pin 2 [2, Unspecified, Line]
+    @(281.94 mm, 213.36 mm): Symbol C33 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(281.94 mm, 213.36 mm): Symbol C33 Pin 2 [2, Unspecified, Line]
+    @(265.43 mm, 207.01 mm): Symbol C38 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(285.75 mm, 227.33 mm): Symbol C37 Pin 2 [2, Unspecified, Line]
+    @(298.45 mm, 227.33 mm): Symbol C39 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(285.75 mm, 237.49 mm): Symbol C37 Pin 1 [1, Unspecified, Line]
+    @(298.45 mm, 237.49 mm): Symbol C39 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(290.83 mm, 217.17 mm): Symbol C30 Pin 1 [1, Unspecified, Line]
+    @(281.94 mm, 213.36 mm): Symbol C33 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 132.08 mm): Symbol ADC2 Pin 1 [IN8N, Unspecified, Line]
+    @(288.29 mm, 8.89 mm): Symbol R216 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 134.62 mm): Symbol ADC2 Pin 2 [IN8P, Unspecified, Line]
+    @(288.29 mm, 29.21 mm): Symbol R215 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 137.16 mm): Symbol ADC2 Pin 3 [IN7N, Unspecified, Line]
+    @(288.29 mm, 39.37 mm): Symbol R214 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 139.70 mm): Symbol ADC2 Pin 4 [IN7P, Unspecified, Line]
+    @(288.29 mm, 59.69 mm): Symbol R213 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 142.24 mm): Symbol ADC2 Pin 5 [IN6N, Unspecified, Line]
+    @(288.29 mm, 69.85 mm): Symbol R212 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 144.78 mm): Symbol ADC2 Pin 6 [IN6P, Unspecified, Line]
+    @(288.29 mm, 90.17 mm): Symbol R211 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 147.32 mm): Symbol ADC2 Pin 7 [IN5N, Unspecified, Line]
+    @(288.29 mm, 100.33 mm): Symbol R210 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 149.86 mm): Symbol ADC2 Pin 8 [IN5P, Unspecified, Line]
+    @(288.29 mm, 120.65 mm): Symbol R209 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 152.40 mm): Symbol ADC2 Pin 9 [IN4N, Unspecified, Line]
+    @(288.29 mm, 130.81 mm): Symbol R208 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 154.94 mm): Symbol ADC2 Pin 10 [IN4P, Unspecified, Line]
+    @(288.29 mm, 151.13 mm): Symbol R207 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 157.48 mm): Symbol ADC2 Pin 11 [IN3N, Unspecified, Line]
+    @(288.29 mm, 161.29 mm): Symbol R206 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 160.02 mm): Symbol ADC2 Pin 12 [IN3P, Unspecified, Line]
+    @(288.29 mm, 181.61 mm): Symbol R205 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 162.56 mm): Symbol ADC2 Pin 13 [IN2N, Unspecified, Line]
+    @(288.29 mm, 191.77 mm): Symbol R204 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 165.10 mm): Symbol ADC2 Pin 14 [IN2P, Unspecified, Line]
+    @(288.29 mm, 212.09 mm): Symbol R203 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 167.64 mm): Symbol ADC2 Pin 15 [IN1N, Unspecified, Line]
+    @(288.29 mm, 222.25 mm): Symbol R202 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 170.18 mm): Symbol ADC2 Pin 16 [IN1P, Unspecified, Line]
+    @(288.29 mm, 242.57 mm): Symbol R201 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 172.72 mm): Symbol ADC2 Pin 17 [SRB1, Unspecified, Line]
+    @(224.79 mm, 8.89 mm): Symbol Rsrb21 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(295.91 mm, 175.26 mm): Symbol ADC2 Pin 18 [SRB2, Unspecified, Line]
+    @(224.79 mm, 29.21 mm): Symbol Rsrb22 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 177.80 mm): Symbol ADC2 Pin 19 [AVDD, Unspecified, Line]
+    @(295.91 mm, 182.88 mm): Symbol ADC2 Pin 21 [AVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 180.34 mm): Symbol ADC2 Pin 20 [AVSS, Unspecified, Line]
+    @(295.91 mm, 187.96 mm): Symbol ADC2 Pin 23 [AVSS, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 182.88 mm): Symbol ADC2 Pin 21 [AVDD, Unspecified, Line]
+    @(295.91 mm, 185.42 mm): Symbol ADC2 Pin 22 [AVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 185.42 mm): Symbol ADC2 Pin 22 [AVDD, Unspecified, Line]
+    @(270.51 mm, 177.80 mm): Symbol C40 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 187.96 mm): Symbol ADC2 Pin 23 [AVSS, Unspecified, Line]
+    @(295.91 mm, 193.04 mm): Symbol ADC2 Pin 25 [VREFN, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 190.50 mm): Symbol ADC2 Pin 24 [VREFP, Unspecified, Line]
+    @(265.43 mm, 196.85 mm): Symbol C38 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 193.04 mm): Symbol ADC2 Pin 25 [VREFN, Unspecified, Line]
+    @(295.91 mm, 208.28 mm): Symbol ADC2 Pin 31 [RESV1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 195.58 mm): Symbol ADC2 Pin 26 [VCAP4, Unspecified, Line]
+    @(276.86 mm, 199.39 mm): Symbol C31 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 200.66 mm): Symbol ADC2 Pin 28 [VCAP1, Unspecified, Line]
+    @(281.94 mm, 203.20 mm): Symbol C33 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 205.74 mm): Symbol ADC2 Pin 30 [VCAP2, Unspecified, Line]
+    @(290.83 mm, 207.01 mm): Symbol C30 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 208.28 mm): Symbol ADC2 Pin 31 [RESV1, Unspecified, Line]
+    @(295.91 mm, 210.82 mm): Symbol ADC2 Pin 32 [AVSS, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(295.91 mm, 210.82 mm): Symbol ADC2 Pin 32 [AVSS, Unspecified, Line]
+    @(290.83 mm, 217.17 mm): Symbol C30 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(298.45 mm, 227.33 mm): Symbol C39 Pin 2 [2, Unspecified, Line]
+    @(270.51 mm, 177.80 mm): Symbol C40 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(298.45 mm, 237.49 mm): Symbol C39 Pin 1 [1, Unspecified, Line]
+    @(306.07 mm, 238.76 mm): Symbol #PWR34 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(306.07 mm, 238.76 mm): Symbol #PWR34 [Ground-GND]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(326.39 mm, 139.70 mm): Symbol ADC2 Pin 61 [BIASINV, Unspecified, Line]
+    @(213.36 mm, 129.54 mm): Symbol Cbias4 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(326.39 mm, 142.24 mm): Symbol ADC2 Pin 60 [BIASREF, Unspecified, Line]
+    @(331.47 mm, 142.24 mm): Symbol #PWR02 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 144.78 mm): Symbol ADC2 Pin 59 [AVDD, Unspecified, Line]
+    @(270.51 mm, 177.80 mm): Symbol C40 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 147.32 mm): Symbol ADC2 Pin 58 [AVSS, Unspecified, Line]
+    @(326.39 mm, 142.24 mm): Symbol ADC2 Pin 60 [BIASREF, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 149.86 mm): Symbol ADC2 Pin 57 [AVSS, Unspecified, Line]
+    @(326.39 mm, 147.32 mm): Symbol ADC2 Pin 58 [AVSS, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 152.40 mm): Symbol ADC2 Pin 56 [AVDD, Unspecified, Line]
+    @(326.39 mm, 144.78 mm): Symbol ADC2 Pin 59 [AVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 154.94 mm): Symbol ADC2 Pin 55 [VCAP3, Unspecified, Line]
+    @(346.71 mm, 154.94 mm): Symbol C34 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 157.48 mm): Symbol ADC2 Pin 54 [AVDD1, Unspecified, Line]
+    @(326.39 mm, 152.40 mm): Symbol ADC2 Pin 56 [AVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(326.39 mm, 160.02 mm): Symbol ADC2 Pin 53 [AVSS1, Unspecified, Line]
+    @(334.01 mm, 162.56 mm): Symbol #PWR10 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 162.56 mm): Symbol ADC2 Pin 52 [CLKSEL, Unspecified, Line]
+    @(326.39 mm, 160.02 mm): Symbol ADC2 Pin 53 [AVSS1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 165.10 mm): Symbol ADC2 Pin 51 [DGND, Unspecified, Line]
+    @(326.39 mm, 162.56 mm): Symbol ADC2 Pin 52 [CLKSEL, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 167.64 mm): Symbol ADC2 Pin 50 [DVDD, Unspecified, Line]
+    @(358.14 mm, 173.99 mm): Symbol C41 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 170.18 mm): Symbol ADC2 Pin 49 [DGND, Unspecified, Line]
+    @(326.39 mm, 165.10 mm): Symbol ADC2 Pin 51 [DGND, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(326.39 mm, 172.72 mm): Symbol ADC2 Pin 48 [DVDD, Unspecified, Line]
+    @(326.39 mm, 167.64 mm): Symbol ADC2 Pin 50 [DVDD, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(326.39 mm, 190.50 mm): Symbol ADC2 Pin 41 [DAISY_IN, Unspecified, Line]
+    @(332.74 mm, 190.50 mm): Symbol #PWR32 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(326.39 mm, 195.58 mm): Symbol ADC2 Pin 39 [CS#, Unspecified, Line]
+    @(181.61 mm, 125.73 mm): Symbol U2 Pin 10 [IO5, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(326.39 mm, 198.12 mm): Symbol ADC2 Pin 38 [START, Unspecified, Line]
+    @(181.61 mm, 130.81 mm): Symbol U2 Pin 12 [IO0, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(326.39 mm, 203.20 mm): Symbol ADC2 Pin 36 [RESET#, Unspecified, Line]
+    @(181.61 mm, 140.97 mm): Symbol U2 Pin 16 [IO7, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(326.39 mm, 205.74 mm): Symbol ADC2 Pin 35 [PWDN#, Unspecified, Line]
+    @(181.61 mm, 156.21 mm): Symbol U2 Pin 22 [IO8, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(326.39 mm, 208.28 mm): Symbol ADC2 Pin 34 [DIN, Unspecified, Line]
+    @(181.61 mm, 138.43 mm): Symbol U2 Pin 15 [IO6, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(326.39 mm, 210.82 mm): Symbol ADC2 Pin 33 [DGND, Unspecified, Line]
+    @(328.93 mm, 213.36 mm): Symbol #PWR04 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(328.93 mm, 213.36 mm): Symbol #PWR04 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(331.47 mm, 142.24 mm): Symbol #PWR02 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(332.74 mm, 190.50 mm): Symbol #PWR32 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(334.01 mm, 149.86 mm): Symbol #PWR26 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(334.01 mm, 162.56 mm): Symbol #PWR10 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(334.01 mm, 170.18 mm): Symbol #PWR24 [Ground-GND]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(346.71 mm, 154.94 mm): Symbol C34 Pin 1 [1, Unspecified, Line]
+    @(356.87 mm, 154.94 mm): Symbol C35 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(346.71 mm, 165.10 mm): Symbol C34 Pin 2 [2, Unspecified, Line]
+    @(356.87 mm, 165.10 mm): Symbol C35 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(356.87 mm, 165.10 mm): Symbol C35 Pin 2 [2, Unspecified, Line]
+    @(359.41 mm, 165.10 mm): Symbol #PWR16 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(358.14 mm, 173.99 mm): Symbol C41 Pin 2 [2, Unspecified, Line]
+    @(367.03 mm, 173.99 mm): Symbol C42 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(358.14 mm, 184.15 mm): Symbol C41 Pin 1 [1, Unspecified, Line]
+    @(367.03 mm, 184.15 mm): Symbol C42 Pin 1 [1, Unspecified, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(359.41 mm, 165.10 mm): Symbol #PWR16 [Ground-GND]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(367.03 mm, 173.99 mm): Symbol C42 Pin 2 [2, Unspecified, Line]
+    @(237.49 mm, 82.55 mm): Symbol JP5 Pin 1 [Pin1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(367.03 mm, 184.15 mm): Symbol C42 Pin 1 [1, Unspecified, Line]
+    @(369.57 mm, 184.15 mm): Symbol #PWR12 Pin 1 [GND, Power input, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(369.57 mm, 184.15 mm): Symbol #PWR12 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(54.61 mm, 19.05 mm): Symbol #PWR32 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(57.15 mm, 49.53 mm): Symbol #PWR14 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(118.11 mm, 19.05 mm): Symbol #PWR10 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(118.11 mm, 49.53 mm): Symbol #PWR18 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(118.11 mm, 80.01 mm): Symbol #PWR30 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(118.11 mm, 110.49 mm): Symbol #PWR44 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(118.11 mm, 140.97 mm): Symbol #PWR54 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(118.11 mm, 171.45 mm): Symbol #PWR46 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(118.11 mm, 201.93 mm): Symbol #PWR12 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(118.11 mm, 232.41 mm): Symbol #PWR52 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(223.52 mm, 19.05 mm): Symbol #PWR48 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(287.02 mm, 19.05 mm): Symbol #PWR08 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(287.02 mm, 49.53 mm): Symbol #PWR42 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(287.02 mm, 80.01 mm): Symbol #PWR36 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(287.02 mm, 110.49 mm): Symbol #PWR16 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(287.02 mm, 140.97 mm): Symbol #PWR06 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(287.02 mm, 171.45 mm): Symbol #PWR50 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(287.02 mm, 201.93 mm): Symbol #PWR38 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(287.02 mm, 232.41 mm): Symbol #PWR26 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(347.98 mm, 259.08 mm): Symbol F1 [Sheet-Symbol_A4]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(391.16 mm, 34.29 mm): Symbol #PWR34 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(391.16 mm, 59.69 mm): Symbol #PWR28 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(391.16 mm, 85.09 mm): Symbol #PWR04 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(391.16 mm, 110.49 mm): Symbol #PWR20 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(391.16 mm, 135.89 mm): Symbol #PWR40 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(391.16 mm, 161.29 mm): Symbol #PWR24 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(391.16 mm, 186.69 mm): Symbol #PWR02 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(391.16 mm, 212.09 mm): Symbol #PWR22 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(391.16 mm, 237.49 mm): Symbol #PWR56 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(31.75 mm, 68.58 mm): Symbol #PWR34 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(43.18 mm, 119.38 mm): Symbol #PWR38 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(43.18 mm, 190.50 mm): Symbol #PWR26 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(54.61 mm, 218.44 mm): Symbol #PWR30 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(71.12 mm, 106.68 mm): Symbol #PWR32 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(71.12 mm, 119.38 mm): Symbol #PWR12 [Ground-GND]
+[lib_symbol_mismatch]: Symbol 'TYPE-C 16PIN 2MD(073)' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(72.39 mm, 35.56 mm): Symbol USB1 [TYPE-C 16PIN 2MD(073)]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(78.74 mm, 93.98 mm): Symbol #PWR20 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(90.17 mm, 139.70 mm): Symbol #PWR44 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(92.71 mm, 185.42 mm): Symbol #PWR02 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(92.71 mm, 195.58 mm): Symbol #PWR40 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(93.98 mm, 218.44 mm): Symbol #PWR22 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(100.33 mm, 173.99 mm): Symbol #PWR46 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(110.49 mm, 55.88 mm): Symbol #PWR28 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(111.76 mm, 38.10 mm): Symbol #PWR06 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(111.76 mm, 127.00 mm): Symbol #PWR04 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(121.92 mm, 127.00 mm): Symbol #PWR14 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(124.46 mm, 114.30 mm): Symbol #PWR42 [3V3]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(128.27 mm, 38.10 mm): Symbol P1 [TP4057]
+[lib_symbol_mismatch]: Symbol 'TP4057' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(128.27 mm, 38.10 mm): Symbol P1 [TP4057]
+[lib_symbol_mismatch]: Symbol '0402WGF2001TCE' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(149.86 mm, 33.02 mm): Symbol RA1 [0402WGF2001TCE]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(156.21 mm, 31.75 mm): Symbol #PWR18 [Ground-GND]
+[lib_symbol_mismatch]: Symbol '0402WGF2001TCE' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(158.75 mm, 67.31 mm): Symbol RL1 [0402WGF2001TCE]
+[lib_symbol_mismatch]: Symbol 'GRM188R71H104KA93D' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(167.64 mm, 102.87 mm): Symbol C223 [GRM188R71H104KA93D]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(180.34 mm, 115.57 mm): Label 'IO3'
+[lib_symbol_issues]: Symbol 'ESP32-C6-MINI-1-N4' not found in symbol library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(193.04 mm, 138.43 mm): Symbol U2 [ESP32-C6-MINI-1-N4]
+[lib_symbol_mismatch]: Symbol 'PZ2.54-2*4' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(226.06 mm, 97.79 mm): Symbol U1 [PZ2.54-2*4]
+[lib_symbol_mismatch]: Symbol '0402WGF1002TCE' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(237.49 mm, 58.42 mm): Symbol R8 [0402WGF1002TCE]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(237.49 mm, 66.04 mm): Symbol #PWR08 [Ground-GND]
+[lib_symbol_mismatch]: Symbol 'A2541HWR-2X6P_C5333437' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(238.76 mm, 138.43 mm): Symbol H1 [A2541HWR-2X6P_C5333437]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(273.05 mm, 123.19 mm): Symbol #PWR36 [Ground-GND]
+[lib_symbol_mismatch]: Symbol 'CL05B104KO5NNNC' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(275.59 mm, 114.30 mm): Symbol C_adc [CL05B104KO5NNNC]
+[isolated_pin_label]: Label connected to only one pin
+    ; warning
+    @(276.86 mm, 166.37 mm): Global Label 'B'
+[lib_symbol_mismatch]: Symbol '0402WGF1002TCE' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(283.21 mm, 123.19 mm): Symbol R_adc1 [0402WGF1002TCE]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(284.48 mm, 68.58 mm): Symbol #PWR10 [Ground-GND]
+[lib_symbol_mismatch]: Symbol '0402WGF2001TCE' doesn't match copy in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(297.18 mm, 166.37 mm): Symbol RL2 [0402WGF2001TCE]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(304.80 mm, 29.21 mm): Symbol #PWR24 [Ground-GND]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(304.80 mm, 166.37 mm): Symbol #PWR16 [3V3]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(318.262 mm, 228.727 mm): Horizontal Wire, length 15.24 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(318.262 mm, 228.727 mm): Horizontal Wire, length 15.24 mm
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(333.502 mm, 228.727 mm): Symbol JP1 Pin 1 [Pin1, Passive, Line]
+[footprint_link_issues]: Footprint '' not found in library 'ProPrj_BCI-easyedapro'
+    ; warning
+    @(336.042 mm, 228.727 mm): Symbol JP1 [Short-Symbol-Auto]
+[endpoint_off_grid]: Symbol pin or wire end off connection grid
+    ; warning
+    @(338.582 mm, 228.727 mm): Horizontal Wire, length 15.24 mm
+[unconnected_wire_endpoint]: Unconnected wire endpoint
+    ; warning
+    @(338.582 mm, 228.727 mm): Horizontal Wire, length 15.24 mm
+
+***** Sheet /ADC pins and connector/
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(20.32 mm, 165.10 mm): Symbol H3 Pin 1 [1, Unspecified, Line]
+    @(35.56 mm, 165.10 mm): Symbol H3 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 167.64 mm): Symbol H3 Pin 3 [3, Unspecified, Line]
+    @(109.22 mm, 8.89 mm): Symbol R116 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 170.18 mm): Symbol H3 Pin 5 [5, Unspecified, Line]
+    @(109.22 mm, 39.37 mm): Symbol R114 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 172.72 mm): Symbol H3 Pin 7 [7, Unspecified, Line]
+    @(109.22 mm, 69.85 mm): Symbol R112 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 175.26 mm): Symbol H3 Pin 9 [9, Unspecified, Line]
+    @(109.22 mm, 100.33 mm): Symbol R110 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 177.80 mm): Symbol H3 Pin 11 [11, Unspecified, Line]
+    @(109.22 mm, 130.81 mm): Symbol R108 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 180.34 mm): Symbol H3 Pin 13 [13, Unspecified, Line]
+    @(109.22 mm, 161.29 mm): Symbol R106 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 182.88 mm): Symbol H3 Pin 15 [15, Unspecified, Line]
+    @(109.22 mm, 191.77 mm): Symbol R104 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 185.42 mm): Symbol H3 Pin 17 [17, Unspecified, Line]
+    @(109.22 mm, 222.25 mm): Symbol R102 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 187.96 mm): Symbol H3 Pin 19 [19, Unspecified, Line]
+    @(45.72 mm, 29.21 mm): Symbol Rsrb12 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 190.50 mm): Symbol H3 Pin 21 [21, Unspecified, Line]
+    @(278.13 mm, 8.89 mm): Symbol R216 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 193.04 mm): Symbol H3 Pin 23 [23, Unspecified, Line]
+    @(278.13 mm, 39.37 mm): Symbol R214 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 195.58 mm): Symbol H3 Pin 25 [25, Unspecified, Line]
+    @(278.13 mm, 69.85 mm): Symbol R212 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 198.12 mm): Symbol H3 Pin 27 [27, Unspecified, Line]
+    @(278.13 mm, 100.33 mm): Symbol R210 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 200.66 mm): Symbol H3 Pin 29 [29, Unspecified, Line]
+    @(278.13 mm, 130.81 mm): Symbol R208 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 203.20 mm): Symbol H3 Pin 31 [31, Unspecified, Line]
+    @(278.13 mm, 161.29 mm): Symbol R206 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 205.74 mm): Symbol H3 Pin 33 [33, Unspecified, Line]
+    @(278.13 mm, 191.77 mm): Symbol R204 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(20.32 mm, 208.28 mm): Symbol H3 Pin 35 [35, Unspecified, Line]
+    @(278.13 mm, 222.25 mm): Symbol R202 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 165.10 mm): Symbol H3 Pin 2 [2, Unspecified, Line]
+    @(45.72 mm, 39.37 mm): Symbol RBIAS5 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 167.64 mm): Symbol H3 Pin 4 [4, Unspecified, Line]
+    @(109.22 mm, 29.21 mm): Symbol R115 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 170.18 mm): Symbol H3 Pin 6 [6, Unspecified, Line]
+    @(109.22 mm, 59.69 mm): Symbol R113 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 172.72 mm): Symbol H3 Pin 8 [8, Unspecified, Line]
+    @(109.22 mm, 90.17 mm): Symbol R111 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 175.26 mm): Symbol H3 Pin 10 [10, Unspecified, Line]
+    @(109.22 mm, 120.65 mm): Symbol R109 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 177.80 mm): Symbol H3 Pin 12 [12, Unspecified, Line]
+    @(109.22 mm, 151.13 mm): Symbol R107 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 180.34 mm): Symbol H3 Pin 14 [14, Unspecified, Line]
+    @(109.22 mm, 181.61 mm): Symbol R105 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 182.88 mm): Symbol H3 Pin 16 [16, Unspecified, Line]
+    @(109.22 mm, 212.09 mm): Symbol R103 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 185.42 mm): Symbol H3 Pin 18 [18, Unspecified, Line]
+    @(109.22 mm, 242.57 mm): Symbol R101 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 187.96 mm): Symbol H3 Pin 20 [20, Unspecified, Line]
+    @(45.72 mm, 8.89 mm): Symbol Rsrb11 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 190.50 mm): Symbol H3 Pin 22 [22, Unspecified, Line]
+    @(278.13 mm, 29.21 mm): Symbol R215 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 193.04 mm): Symbol H3 Pin 24 [24, Unspecified, Line]
+    @(278.13 mm, 59.69 mm): Symbol R213 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 195.58 mm): Symbol H3 Pin 26 [26, Unspecified, Line]
+    @(278.13 mm, 90.17 mm): Symbol R211 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 198.12 mm): Symbol H3 Pin 28 [28, Unspecified, Line]
+    @(278.13 mm, 120.65 mm): Symbol R209 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 200.66 mm): Symbol H3 Pin 30 [30, Unspecified, Line]
+    @(278.13 mm, 151.13 mm): Symbol R207 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 203.20 mm): Symbol H3 Pin 32 [32, Unspecified, Line]
+    @(278.13 mm, 181.61 mm): Symbol R205 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 205.74 mm): Symbol H3 Pin 34 [34, Unspecified, Line]
+    @(278.13 mm, 212.09 mm): Symbol R203 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(35.56 mm, 208.28 mm): Symbol H3 Pin 36 [36, Unspecified, Line]
+    @(278.13 mm, 242.57 mm): Symbol R201 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(57.15 mm, 8.89 mm): Symbol Csrb11 Pin 2 [2, Unspecified, Line]
+    @(55.88 mm, 8.89 mm): Symbol Rsrb11 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(57.15 mm, 19.05 mm): Symbol Csrb11 Pin 1 [1, Unspecified, Line]
+    @(57.15 mm, 19.05 mm): Symbol Csrb12 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(57.15 mm, 19.05 mm): Symbol Csrb12 Pin 2 [2, Unspecified, Line]
+    @(54.61 mm, 19.05 mm): Symbol #PWR32 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(57.15 mm, 29.21 mm): Symbol Csrb12 Pin 1 [1, Unspecified, Line]
+    @(55.88 mm, 29.21 mm): Symbol Rsrb12 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(57.15 mm, 39.37 mm): Symbol CBIAS1 Pin 2 [2, Unspecified, Line]
+    @(55.88 mm, 39.37 mm): Symbol RBIAS5 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(57.15 mm, 49.53 mm): Symbol CBIAS1 Pin 1 [1, Unspecified, Line]
+    @(57.15 mm, 49.53 mm): Symbol #PWR14 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 8.89 mm): Symbol C116 Pin 2 [2, Unspecified, Line]
+    @(119.38 mm, 8.89 mm): Symbol R116 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(120.65 mm, 19.05 mm): Symbol C115 Pin 2 [2, Unspecified, Line]
+    @(120.65 mm, 19.05 mm): Symbol C116 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(120.65 mm, 19.05 mm): Symbol C116 Pin 1 [1, Unspecified, Line]
+    @(118.11 mm, 19.05 mm): Symbol #PWR10 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 29.21 mm): Symbol C115 Pin 1 [1, Unspecified, Line]
+    @(119.38 mm, 29.21 mm): Symbol R115 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 39.37 mm): Symbol C114 Pin 2 [2, Unspecified, Line]
+    @(119.38 mm, 39.37 mm): Symbol R114 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(120.65 mm, 49.53 mm): Symbol C114 Pin 1 [1, Unspecified, Line]
+    @(118.11 mm, 49.53 mm): Symbol #PWR18 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(120.65 mm, 49.53 mm): Symbol C113 Pin 2 [2, Unspecified, Line]
+    @(120.65 mm, 49.53 mm): Symbol C114 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 59.69 mm): Symbol C113 Pin 1 [1, Unspecified, Line]
+    @(119.38 mm, 59.69 mm): Symbol R113 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 69.85 mm): Symbol C112 Pin 2 [2, Unspecified, Line]
+    @(119.38 mm, 69.85 mm): Symbol R112 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(120.65 mm, 80.01 mm): Symbol C111 Pin 2 [2, Unspecified, Line]
+    @(120.65 mm, 80.01 mm): Symbol C112 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(120.65 mm, 80.01 mm): Symbol C112 Pin 1 [1, Unspecified, Line]
+    @(118.11 mm, 80.01 mm): Symbol #PWR30 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 90.17 mm): Symbol C111 Pin 1 [1, Unspecified, Line]
+    @(119.38 mm, 90.17 mm): Symbol R111 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 100.33 mm): Symbol C110 Pin 2 [2, Unspecified, Line]
+    @(119.38 mm, 100.33 mm): Symbol R110 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(120.65 mm, 110.49 mm): Symbol C110 Pin 1 [1, Unspecified, Line]
+    @(118.11 mm, 110.49 mm): Symbol #PWR44 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(120.65 mm, 110.49 mm): Symbol C109 Pin 2 [2, Unspecified, Line]
+    @(120.65 mm, 110.49 mm): Symbol C110 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 120.65 mm): Symbol C109 Pin 1 [1, Unspecified, Line]
+    @(119.38 mm, 120.65 mm): Symbol R109 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 130.81 mm): Symbol C108 Pin 2 [2, Unspecified, Line]
+    @(119.38 mm, 130.81 mm): Symbol R108 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(120.65 mm, 140.97 mm): Symbol C108 Pin 1 [1, Unspecified, Line]
+    @(118.11 mm, 140.97 mm): Symbol #PWR54 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(120.65 mm, 140.97 mm): Symbol C107 Pin 2 [2, Unspecified, Line]
+    @(120.65 mm, 140.97 mm): Symbol C108 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 151.13 mm): Symbol C107 Pin 1 [1, Unspecified, Line]
+    @(119.38 mm, 151.13 mm): Symbol R107 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 161.29 mm): Symbol C106 Pin 2 [2, Unspecified, Line]
+    @(119.38 mm, 161.29 mm): Symbol R106 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(120.65 mm, 171.45 mm): Symbol C106 Pin 1 [1, Unspecified, Line]
+    @(118.11 mm, 171.45 mm): Symbol #PWR46 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(120.65 mm, 171.45 mm): Symbol C105 Pin 2 [2, Unspecified, Line]
+    @(120.65 mm, 171.45 mm): Symbol C106 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 181.61 mm): Symbol C105 Pin 1 [1, Unspecified, Line]
+    @(119.38 mm, 181.61 mm): Symbol R105 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 191.77 mm): Symbol C104 Pin 2 [2, Unspecified, Line]
+    @(119.38 mm, 191.77 mm): Symbol R104 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(120.65 mm, 201.93 mm): Symbol C103 Pin 2 [2, Unspecified, Line]
+    @(120.65 mm, 201.93 mm): Symbol C104 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(120.65 mm, 201.93 mm): Symbol C104 Pin 1 [1, Unspecified, Line]
+    @(118.11 mm, 201.93 mm): Symbol #PWR12 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 212.09 mm): Symbol C103 Pin 1 [1, Unspecified, Line]
+    @(119.38 mm, 212.09 mm): Symbol R103 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 222.25 mm): Symbol C102 Pin 2 [2, Unspecified, Line]
+    @(119.38 mm, 222.25 mm): Symbol R102 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(120.65 mm, 232.41 mm): Symbol C101 Pin 2 [2, Unspecified, Line]
+    @(120.65 mm, 232.41 mm): Symbol C102 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(120.65 mm, 232.41 mm): Symbol C102 Pin 1 [1, Unspecified, Line]
+    @(118.11 mm, 232.41 mm): Symbol #PWR52 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(120.65 mm, 242.57 mm): Symbol C101 Pin 1 [1, Unspecified, Line]
+    @(119.38 mm, 242.57 mm): Symbol R101 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(226.06 mm, 8.89 mm): Symbol Csrb21 Pin 2 [2, Unspecified, Line]
+    @(224.79 mm, 8.89 mm): Symbol Rsrb21 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(226.06 mm, 19.05 mm): Symbol Csrb22 Pin 2 [2, Unspecified, Line]
+    @(223.52 mm, 19.05 mm): Symbol #PWR48 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(226.06 mm, 19.05 mm): Symbol Csrb21 Pin 1 [1, Unspecified, Line]
+    @(226.06 mm, 19.05 mm): Symbol Csrb22 Pin 2 [2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(226.06 mm, 29.21 mm): Symbol Csrb22 Pin 1 [1, Unspecified, Line]
+    @(224.79 mm, 29.21 mm): Symbol Rsrb22 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 8.89 mm): Symbol C216 Pin 2 [2, Unspecified, Line]
+    @(288.29 mm, 8.89 mm): Symbol R216 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(289.56 mm, 19.05 mm): Symbol C216 Pin 1 [1, Unspecified, Line]
+    @(287.02 mm, 19.05 mm): Symbol #PWR08 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(289.56 mm, 19.05 mm): Symbol C215 Pin 2 [2, Unspecified, Line]
+    @(289.56 mm, 19.05 mm): Symbol C216 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 29.21 mm): Symbol C215 Pin 1 [1, Unspecified, Line]
+    @(288.29 mm, 29.21 mm): Symbol R215 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 39.37 mm): Symbol C214 Pin 2 [2, Unspecified, Line]
+    @(288.29 mm, 39.37 mm): Symbol R214 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(289.56 mm, 49.53 mm): Symbol C214 Pin 1 [1, Unspecified, Line]
+    @(287.02 mm, 49.53 mm): Symbol #PWR42 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(289.56 mm, 49.53 mm): Symbol C213 Pin 2 [2, Unspecified, Line]
+    @(289.56 mm, 49.53 mm): Symbol C214 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 59.69 mm): Symbol C213 Pin 1 [1, Unspecified, Line]
+    @(288.29 mm, 59.69 mm): Symbol R213 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 69.85 mm): Symbol C212 Pin 2 [2, Unspecified, Line]
+    @(288.29 mm, 69.85 mm): Symbol R212 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(289.56 mm, 80.01 mm): Symbol C211 Pin 2 [2, Unspecified, Line]
+    @(289.56 mm, 80.01 mm): Symbol C212 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(289.56 mm, 80.01 mm): Symbol C212 Pin 1 [1, Unspecified, Line]
+    @(287.02 mm, 80.01 mm): Symbol #PWR36 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 90.17 mm): Symbol C211 Pin 1 [1, Unspecified, Line]
+    @(288.29 mm, 90.17 mm): Symbol R211 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 100.33 mm): Symbol C210 Pin 2 [2, Unspecified, Line]
+    @(288.29 mm, 100.33 mm): Symbol R210 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(289.56 mm, 110.49 mm): Symbol C209 Pin 2 [2, Unspecified, Line]
+    @(289.56 mm, 110.49 mm): Symbol C210 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(289.56 mm, 110.49 mm): Symbol C210 Pin 1 [1, Unspecified, Line]
+    @(287.02 mm, 110.49 mm): Symbol #PWR16 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 120.65 mm): Symbol C209 Pin 1 [1, Unspecified, Line]
+    @(288.29 mm, 120.65 mm): Symbol R209 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 130.81 mm): Symbol C208 Pin 2 [2, Unspecified, Line]
+    @(288.29 mm, 130.81 mm): Symbol R208 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(289.56 mm, 140.97 mm): Symbol C208 Pin 1 [1, Unspecified, Line]
+    @(287.02 mm, 140.97 mm): Symbol #PWR06 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(289.56 mm, 140.97 mm): Symbol C207 Pin 2 [2, Unspecified, Line]
+    @(289.56 mm, 140.97 mm): Symbol C208 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 151.13 mm): Symbol C207 Pin 1 [1, Unspecified, Line]
+    @(288.29 mm, 151.13 mm): Symbol R207 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 161.29 mm): Symbol C206 Pin 2 [2, Unspecified, Line]
+    @(288.29 mm, 161.29 mm): Symbol R206 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(289.56 mm, 171.45 mm): Symbol C205 Pin 2 [2, Unspecified, Line]
+    @(289.56 mm, 171.45 mm): Symbol C206 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(289.56 mm, 171.45 mm): Symbol C206 Pin 1 [1, Unspecified, Line]
+    @(287.02 mm, 171.45 mm): Symbol #PWR50 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 181.61 mm): Symbol C205 Pin 1 [1, Unspecified, Line]
+    @(288.29 mm, 181.61 mm): Symbol R205 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 191.77 mm): Symbol C204 Pin 2 [2, Unspecified, Line]
+    @(288.29 mm, 191.77 mm): Symbol R204 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(289.56 mm, 201.93 mm): Symbol C204 Pin 1 [1, Unspecified, Line]
+    @(287.02 mm, 201.93 mm): Symbol #PWR38 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(289.56 mm, 201.93 mm): Symbol C203 Pin 2 [2, Unspecified, Line]
+    @(289.56 mm, 201.93 mm): Symbol C204 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 212.09 mm): Symbol C203 Pin 1 [1, Unspecified, Line]
+    @(288.29 mm, 212.09 mm): Symbol R203 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 222.25 mm): Symbol C202 Pin 2 [2, Unspecified, Line]
+    @(288.29 mm, 222.25 mm): Symbol R202 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(289.56 mm, 232.41 mm): Symbol C201 Pin 2 [2, Unspecified, Line]
+    @(289.56 mm, 232.41 mm): Symbol C202 Pin 1 [1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(289.56 mm, 232.41 mm): Symbol C202 Pin 1 [1, Unspecified, Line]
+    @(287.02 mm, 232.41 mm): Symbol #PWR26 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 242.57 mm): Symbol C201 Pin 1 [1, Unspecified, Line]
+    @(288.29 mm, 242.57 mm): Symbol R201 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(397.51 mm, 34.29 mm): Symbol D5 Pin 3 [GND, Unspecified, Line]
+    @(391.16 mm, 34.29 mm): Symbol #PWR34 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(397.51 mm, 52.07 mm): Symbol D5 Pin 4 [IO3, Unspecified, Line]
+    @(109.22 mm, 29.21 mm): Symbol R115 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(397.51 mm, 59.69 mm): Symbol D4 Pin 3 [GND, Unspecified, Line]
+    @(391.16 mm, 59.69 mm): Symbol #PWR28 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(397.51 mm, 77.47 mm): Symbol D4 Pin 4 [IO3, Unspecified, Line]
+    @(109.22 mm, 90.17 mm): Symbol R111 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(397.51 mm, 85.09 mm): Symbol D3 Pin 3 [GND, Unspecified, Line]
+    @(391.16 mm, 85.09 mm): Symbol #PWR04 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(397.51 mm, 102.87 mm): Symbol D3 Pin 4 [IO3, Unspecified, Line]
+    @(109.22 mm, 151.13 mm): Symbol R107 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(397.51 mm, 110.49 mm): Symbol D2 Pin 3 [GND, Unspecified, Line]
+    @(391.16 mm, 110.49 mm): Symbol #PWR20 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(397.51 mm, 128.27 mm): Symbol D2 Pin 4 [IO3, Unspecified, Line]
+    @(109.22 mm, 212.09 mm): Symbol R103 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(397.51 mm, 135.89 mm): Symbol D1 Pin 3 [GND, Unspecified, Line]
+    @(391.16 mm, 135.89 mm): Symbol #PWR40 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(397.51 mm, 153.67 mm): Symbol D1 Pin 4 [IO3, Unspecified, Line]
+    @(35.56 mm, 187.96 mm): Symbol H3 Pin 20 [20, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(397.51 mm, 161.29 mm): Symbol D10 Pin 3 [GND, Unspecified, Line]
+    @(391.16 mm, 161.29 mm): Symbol #PWR24 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(397.51 mm, 179.07 mm): Symbol D10 Pin 4 [IO3, Unspecified, Line]
+    @(278.13 mm, 59.69 mm): Symbol R213 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(397.51 mm, 186.69 mm): Symbol D9 Pin 3 [GND, Unspecified, Line]
+    @(391.16 mm, 186.69 mm): Symbol #PWR02 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(397.51 mm, 204.47 mm): Symbol D9 Pin 4 [IO3, Unspecified, Line]
+    @(278.13 mm, 120.65 mm): Symbol R209 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(397.51 mm, 212.09 mm): Symbol D8 Pin 3 [GND, Unspecified, Line]
+    @(391.16 mm, 212.09 mm): Symbol #PWR22 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(397.51 mm, 229.87 mm): Symbol D8 Pin 4 [IO3, Unspecified, Line]
+    @(278.13 mm, 181.61 mm): Symbol R205 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(397.51 mm, 237.49 mm): Symbol D7 Pin 3 [GND, Unspecified, Line]
+    @(391.16 mm, 237.49 mm): Symbol #PWR56 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(397.51 mm, 255.27 mm): Symbol D7 Pin 4 [IO3, Unspecified, Line]
+    @(278.13 mm, 242.57 mm): Symbol R201 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(400.05 mm, 52.07 mm): Symbol D5 Pin 5 [IO4, Unspecified, Line]
+    @(109.22 mm, 8.89 mm): Symbol R116 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(400.05 mm, 77.47 mm): Symbol D4 Pin 5 [IO4, Unspecified, Line]
+    @(109.22 mm, 69.85 mm): Symbol R112 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(400.05 mm, 102.87 mm): Symbol D3 Pin 5 [IO4, Unspecified, Line]
+    @(109.22 mm, 130.81 mm): Symbol R108 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(400.05 mm, 128.27 mm): Symbol D2 Pin 5 [IO4, Unspecified, Line]
+    @(109.22 mm, 191.77 mm): Symbol R104 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(400.05 mm, 153.67 mm): Symbol D1 Pin 5 [IO4, Unspecified, Line]
+    @(45.72 mm, 29.21 mm): Symbol Rsrb12 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(400.05 mm, 179.07 mm): Symbol D10 Pin 5 [IO4, Unspecified, Line]
+    @(278.13 mm, 39.37 mm): Symbol R214 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(400.05 mm, 204.47 mm): Symbol D9 Pin 5 [IO4, Unspecified, Line]
+    @(278.13 mm, 100.33 mm): Symbol R210 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(400.05 mm, 229.87 mm): Symbol D8 Pin 5 [IO4, Unspecified, Line]
+    @(278.13 mm, 161.29 mm): Symbol R206 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(400.05 mm, 255.27 mm): Symbol D7 Pin 5 [IO4, Unspecified, Line]
+    @(278.13 mm, 222.25 mm): Symbol R202 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(402.59 mm, 34.29 mm): Symbol D5 Pin 1 [IO1, Unspecified, Line]
+    @(45.72 mm, 39.37 mm): Symbol RBIAS5 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(402.59 mm, 59.69 mm): Symbol D4 Pin 1 [IO1, Unspecified, Line]
+    @(109.22 mm, 39.37 mm): Symbol R114 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(402.59 mm, 85.09 mm): Symbol D3 Pin 1 [IO1, Unspecified, Line]
+    @(109.22 mm, 100.33 mm): Symbol R110 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(402.59 mm, 110.49 mm): Symbol D2 Pin 1 [IO1, Unspecified, Line]
+    @(109.22 mm, 161.29 mm): Symbol R106 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(402.59 mm, 135.89 mm): Symbol D1 Pin 1 [IO1, Unspecified, Line]
+    @(109.22 mm, 222.25 mm): Symbol R102 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(402.59 mm, 161.29 mm): Symbol D10 Pin 1 [IO1, Unspecified, Line]
+    @(278.13 mm, 8.89 mm): Symbol R216 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(402.59 mm, 186.69 mm): Symbol D9 Pin 1 [IO1, Unspecified, Line]
+    @(278.13 mm, 69.85 mm): Symbol R212 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(402.59 mm, 212.09 mm): Symbol D8 Pin 1 [IO1, Unspecified, Line]
+    @(278.13 mm, 130.81 mm): Symbol R208 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(402.59 mm, 237.49 mm): Symbol D7 Pin 1 [IO1, Unspecified, Line]
+    @(278.13 mm, 191.77 mm): Symbol R204 Pin 1 [1, Passive, Line]
+
+***** Sheet /ESP and Power/
+[power_pin_not_driven]: Input Power pin not driven by any Output Power pins
+    ; error
+    @(304.80 mm, 166.37 mm): Symbol #PWR16 Pin 1 [Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(45.72 mm, 109.22 mm): Symbol U14 Pin 1 [EN, Unspecified, Line]
+    @(68.58 mm, 111.76 mm): Symbol U14 Pin 7 [VIN, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(45.72 mm, 114.30 mm): Symbol U14 Pin 3 [AGND, Unspecified, Line]
+    @(43.18 mm, 119.38 mm): Symbol #PWR38 Pin 1 [GND, Power input, Line]
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(60.96 mm, 31.75 mm): Global Label 'DN'
+    @(170.18 mm, 143.51 mm): Label 'DN'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(60.96 mm, 39.37 mm): Global Label 'DP'
+    @(171.45 mm, 146.05 mm): Label 'DP'
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(68.58 mm, 109.22 mm): Symbol U14 Pin 8 [PG, Unspecified, Line]
+    @(71.12 mm, 106.68 mm): Symbol #PWR32 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(68.58 mm, 111.76 mm): Symbol U14 Pin 7 [VIN, Unspecified, Line]
+    @(58.42 mm, 180.34 mm): Symbol Rb7 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(68.58 mm, 114.30 mm): Symbol U14 Pin 6 [SW, Unspecified, Line]
+    @(78.74 mm, 114.30 mm): Symbol L1 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(68.58 mm, 116.84 mm): Symbol U14 Pin 5 [PGND, Unspecified, Line]
+    @(71.12 mm, 119.38 mm): Symbol #PWR12 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(69.85 mm, 190.50 mm): Symbol U15 Pin 1 [EN, Unspecified, Line]
+    @(58.42 mm, 180.34 mm): Symbol Rb7 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(69.85 mm, 193.04 mm): Symbol U15 Pin 2 [SEL, Unspecified, Line]
+    @(58.42 mm, 190.50 mm): Symbol Rb7 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(69.85 mm, 198.12 mm): Symbol U15 Pin 4 [CFG2, Unspecified, Line]
+    @(54.61 mm, 203.20 mm): Symbol Rb4 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(69.85 mm, 200.66 mm): Symbol U15 Pin 5 [CFG3, Unspecified, Line]
+    @(66.04 mm, 203.20 mm): Symbol Rb3 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(78.74 mm, 95.25 mm): Symbol C227 Pin 1 [1, Unspecified, Line]
+    @(78.74 mm, 93.98 mm): Symbol #PWR20 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(78.74 mm, 105.41 mm): Symbol C227 Pin 2 [2, Unspecified, Line]
+    @(68.58 mm, 111.76 mm): Symbol U14 Pin 7 [VIN, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(90.17 mm, 187.96 mm): Symbol U15 Pin 11 [EP, Unspecified, Line]
+    @(92.71 mm, 185.42 mm): Symbol #PWR02 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(90.17 mm, 190.50 mm): Symbol U15 Pin 10 [VIN, Unspecified, Line]
+    @(58.42 mm, 180.34 mm): Symbol Rb7 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(90.17 mm, 195.58 mm): Symbol U15 Pin 8 [GND, Unspecified, Line]
+    @(92.71 mm, 195.58 mm): Symbol #PWR40 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(90.17 mm, 200.66 mm): Symbol U15 Pin 6 [VOUT, Unspecified, Line]
+    @(227.33 mm, 92.71 mm): Symbol U1 Pin 6 [6, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(93.98 mm, 207.01 mm): Symbol C233 Pin 2 [2, Unspecified, Line]
+    @(90.17 mm, 200.66 mm): Symbol U15 Pin 6 [VOUT, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(93.98 mm, 217.17 mm): Symbol C233 Pin 1 [1, Unspecified, Line]
+    @(93.98 mm, 218.44 mm): Symbol #PWR22 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(100.33 mm, 115.57 mm): Symbol C234 Pin 2 [2, Unspecified, Line]
+    @(90.17 mm, 115.57 mm): Symbol Rb1 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(100.33 mm, 125.73 mm): Symbol C234 Pin 1 [1, Unspecified, Line]
+    @(45.72 mm, 111.76 mm): Symbol U14 Pin 2 [FB, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(100.33 mm, 175.26 mm): Symbol C232 Pin 2 [2, Unspecified, Line]
+    @(100.33 mm, 173.99 mm): Symbol #PWR46 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(100.33 mm, 185.42 mm): Symbol C232 Pin 1 [1, Unspecified, Line]
+    @(90.17 mm, 190.50 mm): Symbol U15 Pin 10 [VIN, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(105.41 mm, 190.50 mm): Symbol L2 Pin 1 [1, Unspecified, Line]
+    @(90.17 mm, 193.04 mm): Symbol U15 Pin 9 [LX1, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(105.41 mm, 200.66 mm): Symbol L2 Pin 2 [2, Unspecified, Line]
+    @(90.17 mm, 198.12 mm): Symbol U15 Pin 7 [LX2, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(111.76 mm, 115.57 mm): Symbol C228 Pin 2 [2, Unspecified, Line]
+    @(121.92 mm, 115.57 mm): Symbol C231 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(111.76 mm, 125.73 mm): Symbol C228 Pin 1 [1, Unspecified, Line]
+    @(111.76 mm, 127.00 mm): Symbol #PWR04 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(132.08 mm, 62.23 mm): Symbol LED1 Pin 1 [-, Unspecified, Line]
+    @(113.03 mm, 33.02 mm): Symbol P1 Pin 1 [CHRG, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(132.08 mm, 67.31 mm): Symbol LED1 Pin 4 [-, Unspecified, Line]
+    @(143.51 mm, 38.10 mm): Symbol P1 Pin 5 [STDBY, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(152.40 mm, 67.31 mm): Symbol LED1 Pin 3 [+, Unspecified, Line]
+    @(153.67 mm, 67.31 mm): Symbol RL1 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(214.63 mm, 35.56 mm): Symbol Q1 Pin 3 [D, Unspecified, Line]
+    @(283.21 mm, 66.04 mm): Symbol F1 Pin 1 [1, Passive, Line]
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(222.25 mm, 102.87 mm): Global Label '3V3_MCU'
+    @(346.202 mm, 228.727 mm): Label '3V3_MCU'
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(224.79 mm, 92.71 mm): Global Label '3V3'
+    @(325.882 mm, 228.727 mm): Label '3V3'
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(227.33 mm, 48.26 mm): Symbol Q1 Pin 1 [G, Unspecified, Line]
+    @(237.49 mm, 48.26 mm): Symbol D11 Pin 2 [A, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(234.95 mm, 35.56 mm): Symbol Q1 Pin 2 [S, Unspecified, Line]
+    @(237.49 mm, 38.10 mm): Symbol D11 Pin 1 [C, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(275.59 mm, 109.22 mm): Symbol C_adc Pin 1 [1, Unspecified, Line]
+    @(288.29 mm, 123.19 mm): Symbol R_adc1 Pin 1 [1, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(275.59 mm, 119.38 mm): Symbol C_adc Pin 2 [2, Unspecified, Line]
+    @(273.05 mm, 123.19 mm): Symbol #PWR36 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(285.75 mm, 21.59 mm): Symbol SW4 Pin 3 [3, Unspecified, Line]
+    @(237.49 mm, 38.10 mm): Symbol D11 Pin 1 [C, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Unspecified are connected
+    ; warning
+    @(285.75 mm, 24.13 mm): Symbol SW4 Pin 2 [2, Unspecified, Line]
+    @(285.75 mm, 21.59 mm): Symbol SW4 Pin 3 [3, Unspecified, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(285.75 mm, 29.21 mm): Symbol SW4 Pin 1 [1, Unspecified, Line]
+    @(303.53 mm, 123.19 mm): Symbol R_adc2 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Passive are connected
+    ; warning
+    @(289.56 mm, 166.37 mm): Symbol LED2 Pin 2 [A, Unspecified, Line]
+    @(292.10 mm, 166.37 mm): Symbol RL2 Pin 2 [2, Passive, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(295.91 mm, 68.58 mm): Symbol U16 Pin 2 [2, Unspecified, Line]
+    @(284.48 mm, 68.58 mm): Symbol #PWR10 Pin 1 [GND, Power input, Line]
+[pin_to_pin]: Pins of type Unspecified and Power input are connected
+    ; warning
+    @(300.99 mm, 29.21 mm): Symbol SW4 Pin 0 [0, Unspecified, Line]
+    @(304.80 mm, 29.21 mm): Symbol #PWR24 Pin 1 [GND, Power input, Line]
+[same_local_global_label]: Local and global labels have same name
+    ; warning
+    @(300.99 mm, 106.68 mm): Global Label 'ADC'
+    @(180.34 mm, 123.19 mm): Label 'ADC'
+
+***** Sheet /
+
+ ** ERC messages: 448  Errors 4  Warnings 444
+
+ ** Ignored checks:
+    - Global label only appears once in the schematic
+    - Four connection points are joined together
+    - SPICE model issue
+    - Assigned footprint doesn't match footprint filters

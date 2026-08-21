@@ -5,6 +5,148 @@
 	(uuid "8f366383-c904-480b-9f01-6cc4c8129f98")
 	(paper "User" 431.3428 298.3484)
 	(lib_symbols
+		(symbol "Device:NetTie_2"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "NT"
+				(at 0 1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NetTie_2"
+				(at 0 -1.27 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Net tie, 2 pins"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "net tie short"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Net*Tie*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "NetTie_2_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NetTie_2_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "ProPrj_BCI-easyedapro:ADS1299IPAGR"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -142,7 +284,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 39.37 0)
 					(length 2.54)
 					(name "IN8N"
@@ -160,7 +302,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 36.83 0)
 					(length 2.54)
 					(name "IN8P"
@@ -178,7 +320,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 34.29 0)
 					(length 2.54)
 					(name "IN7N"
@@ -196,7 +338,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 31.75 0)
 					(length 2.54)
 					(name "IN7P"
@@ -214,7 +356,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 29.21 0)
 					(length 2.54)
 					(name "IN6N"
@@ -232,7 +374,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 26.67 0)
 					(length 2.54)
 					(name "IN6P"
@@ -250,7 +392,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 24.13 0)
 					(length 2.54)
 					(name "IN5N"
@@ -268,7 +410,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 21.59 0)
 					(length 2.54)
 					(name "IN5P"
@@ -286,7 +428,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 19.05 0)
 					(length 2.54)
 					(name "IN4N"
@@ -304,7 +446,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 16.51 0)
 					(length 2.54)
 					(name "IN4P"
@@ -322,7 +464,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 13.97 0)
 					(length 2.54)
 					(name "IN3N"
@@ -340,7 +482,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 11.43 0)
 					(length 2.54)
 					(name "IN3P"
@@ -358,7 +500,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 8.89 0)
 					(length 2.54)
 					(name "IN2N"
@@ -376,7 +518,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 6.35 0)
 					(length 2.54)
 					(name "IN2P"
@@ -394,7 +536,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 3.81 0)
 					(length 2.54)
 					(name "IN1N"
@@ -412,7 +554,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 1.27 0)
 					(length 2.54)
 					(name "IN1P"
@@ -430,7 +572,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -1.27 0)
 					(length 2.54)
 					(name "SRB1"
@@ -448,7 +590,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -3.81 0)
 					(length 2.54)
 					(name "SRB2"
@@ -466,7 +608,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -6.35 0)
 					(length 2.54)
 					(name "AVDD"
@@ -484,7 +626,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -8.89 0)
 					(length 2.54)
 					(name "AVSS"
@@ -502,7 +644,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -11.43 0)
 					(length 2.54)
 					(name "AVDD"
@@ -520,7 +662,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -13.97 0)
 					(length 2.54)
 					(name "AVDD"
@@ -538,7 +680,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -16.51 0)
 					(length 2.54)
 					(name "AVSS"
@@ -556,7 +698,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -19.05 0)
 					(length 2.54)
 					(name "VREFP"
@@ -574,7 +716,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -21.59 0)
 					(length 2.54)
 					(name "VREFN"
@@ -592,7 +734,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -24.13 0)
 					(length 2.54)
 					(name "VCAP4"
@@ -628,7 +770,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -29.21 0)
 					(length 2.54)
 					(name "VCAP1"
@@ -664,7 +806,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -34.29 0)
 					(length 2.54)
 					(name "VCAP2"
@@ -682,7 +824,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -36.83 0)
 					(length 2.54)
 					(name "RESV1"
@@ -700,7 +842,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -15.24 -39.37 0)
 					(length 2.54)
 					(name "AVSS"
@@ -718,7 +860,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -39.37 180)
 					(length 2.54)
 					(name "DGND"
@@ -736,7 +878,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -36.83 180)
 					(length 2.54)
 					(name "DIN"
@@ -754,7 +896,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -34.29 180)
 					(length 2.54)
 					(name "PWDN#"
@@ -772,7 +914,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -31.75 180)
 					(length 2.54)
 					(name "RESET#"
@@ -790,7 +932,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -29.21 180)
 					(length 2.54)
 					(name "CLK"
@@ -808,7 +950,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -26.67 180)
 					(length 2.54)
 					(name "START"
@@ -826,7 +968,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -24.13 180)
 					(length 2.54)
 					(name "CS#"
@@ -844,7 +986,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -21.59 180)
 					(length 2.54)
 					(name "SCLK"
@@ -862,7 +1004,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -19.05 180)
 					(length 2.54)
 					(name "DAISY_IN"
@@ -880,7 +1022,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -16.51 180)
 					(length 2.54)
 					(name "GPIO1"
@@ -898,7 +1040,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -13.97 180)
 					(length 2.54)
 					(name "DOUT"
@@ -916,7 +1058,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -11.43 180)
 					(length 2.54)
 					(name "GPIO2"
@@ -934,7 +1076,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -8.89 180)
 					(length 2.54)
 					(name "GPIO3"
@@ -952,7 +1094,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -6.35 180)
 					(length 2.54)
 					(name "GPIO4"
@@ -970,7 +1112,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -3.81 180)
 					(length 2.54)
 					(name "DRDY#"
@@ -988,7 +1130,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 -1.27 180)
 					(length 2.54)
 					(name "DVDD"
@@ -1006,7 +1148,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 1.27 180)
 					(length 2.54)
 					(name "DGND"
@@ -1024,7 +1166,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 3.81 180)
 					(length 2.54)
 					(name "DVDD"
@@ -1042,7 +1184,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 6.35 180)
 					(length 2.54)
 					(name "DGND"
@@ -1060,7 +1202,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 8.89 180)
 					(length 2.54)
 					(name "CLKSEL"
@@ -1078,7 +1220,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 11.43 180)
 					(length 2.54)
 					(name "AVSS1"
@@ -1096,7 +1238,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 13.97 180)
 					(length 2.54)
 					(name "AVDD1"
@@ -1114,7 +1256,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 16.51 180)
 					(length 2.54)
 					(name "VCAP3"
@@ -1132,7 +1274,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 19.05 180)
 					(length 2.54)
 					(name "AVDD"
@@ -1150,7 +1292,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 21.59 180)
 					(length 2.54)
 					(name "AVSS"
@@ -1168,7 +1310,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 24.13 180)
 					(length 2.54)
 					(name "AVSS"
@@ -1186,7 +1328,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 26.67 180)
 					(length 2.54)
 					(name "AVDD"
@@ -1204,7 +1346,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 29.21 180)
 					(length 2.54)
 					(name "BIASREF"
@@ -1222,7 +1364,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 31.75 180)
 					(length 2.54)
 					(name "BIASINV"
@@ -1240,7 +1382,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 34.29 180)
 					(length 2.54)
 					(name "BIASIN"
@@ -1258,7 +1400,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 15.24 36.83 180)
 					(length 2.54)
 					(name "BIASOUT"
@@ -1664,7 +1806,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1682,7 +1824,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1867,7 +2009,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -1885,7 +2027,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2070,7 +2212,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -2088,7 +2230,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2411,7 +2553,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -2429,7 +2571,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -2599,929 +2741,6 @@
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ProPrj_BCI-easyedapro:Sheet-Symbol_A4"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProPrj_BCI-easyedapro:"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Sheet-Symbol_A4_1_0"
-				(rectangle
-					(start 0 228.6)
-					(end 304.8 0)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 171.45) (xy 2.54 171.45)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 114.3) (xy 2.54 114.3)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 57.15) (xy 2.54 57.15)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 2.54 226.06)
-					(end 302.26 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 50.8 228.6) (xy 50.8 226.06)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 50.8 0) (xy 50.8 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 228.6) (xy 101.6 226.06)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 101.6 0) (xy 101.6 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start 123.952 48.26)
-					(end 302.26 2.54)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 147.32 12.7) (xy 147.32 48.26)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 152.4 228.6) (xy 152.4 226.06)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 152.4 0) (xy 152.4 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 179.832 33.02) (xy 179.832 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 179.832 27.94) (xy 123.952 27.94)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 179.832 22.86) (xy 123.952 22.86)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 200.152 2.54) (xy 200.152 17.78)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 203.2 228.6) (xy 203.2 226.06)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 203.2 0) (xy 203.2 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 220.472 17.78) (xy 220.472 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 235.712 48.26) (xy 235.712 33.02)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 254 228.6) (xy 254 226.06)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 254 0) (xy 254 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 261.112 33.02) (xy 261.112 48.26)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 302.26 43.18) (xy 235.712 43.18)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 302.26 38.1) (xy 123.952 38.1)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 302.26 33.02) (xy 123.952 33.02)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 302.26 17.78) (xy 123.952 17.78)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 302.26 12.7) (xy 123.952 12.7)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 304.8 171.45) (xy 302.26 171.45)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 304.8 114.3) (xy 302.26 114.3)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 304.8 57.15) (xy 302.26 57.15)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(text "A"
-					(at 1.27 200.025 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "B"
-					(at 1.27 142.875 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "C"
-					(at 1.27 85.725 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "D"
-					(at 1.27 28.575 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "1"
-					(at 25.4 227.33 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "1"
-					(at 25.4 1.27 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "2"
-					(at 76.2 227.33 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "2"
-					(at 76.2 1.27 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "Schematic"
-					(at 126.492 43.18 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-						(justify left)
-					)
-				)
-				(text "Drawn"
-					(at 126.492 30.48 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-						(justify left)
-					)
-				)
-				(text "Reviewed"
-					(at 126.492 25.4 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-						(justify left)
-					)
-				)
-				(text "3"
-					(at 127 227.33 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "Page"
-					(at 127 35.56 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-						(justify left)
-					)
-				)
-				(text "3"
-					(at 127 1.27 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "4"
-					(at 177.8 227.33 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "4"
-					(at 177.8 1.27 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "VER"
-					(at 189.992 15.24 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-					)
-				)
-				(text "SIZE"
-					(at 210.312 15.24 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-					)
-				)
-				(text "5"
-					(at 228.6 227.33 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "5"
-					(at 228.6 1.27 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "Update Date"
-					(at 238.252 45.72 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-						(justify left)
-					)
-				)
-				(text "Create Date"
-					(at 238.252 40.64 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-						(justify left)
-					)
-				)
-				(text "Part Number"
-					(at 238.252 35.56 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-						(justify left)
-					)
-				)
-				(text "PAGE"
-					(at 238.252 15.494 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-						(justify left)
-					)
-				)
-				(text "OF"
-					(at 269.748 15.494 0)
-					(effects
-						(font
-							(size 2.3622 2.3622)
-						)
-						(justify left)
-					)
-				)
-				(text "6"
-					(at 279.4 227.33 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "6"
-					(at 279.4 1.27 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "A"
-					(at 303.53 200.025 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "B"
-					(at 303.53 142.875 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "C"
-					(at 303.53 85.725 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-				(text "D"
-					(at 303.53 28.575 0)
-					(effects
-						(font
-							(size 1.5748 1.5748)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ProPrj_BCI-easyedapro:Short-Symbol"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProPrj_BCI-easyedapro:"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Short-Symbol_1_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0.762) (xy 1.27 0) (xy 0 -0.762) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "Pin1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "Pin1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "ProPrj_BCI-easyedapro:Short-Symbol-Auto"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "ProPrj_BCI-easyedapro:"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "Short-Symbol-Auto_1_0"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 0.762) (xy 1.27 0) (xy 0 -0.762) (xy -1.27 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.27)
-					(name "Pin1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 0.0254 0.0254)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.27)
-					(name "Pin2"
 						(effects
 							(font
 								(size 0.0254 0.0254)
@@ -3996,6 +3215,10 @@
 		(uuid "4acef60d-402c-40a2-b6a4-687c76fa15e8")
 	)
 	(no_connect
+		(at 326.39 137.16)
+		(uuid "4e379275-82d6-4222-8c6f-5eb77c3676c2")
+	)
+	(no_connect
 		(at 326.39 175.26)
 		(uuid "808ddb62-4dc0-41db-931e-0233c2eacad5")
 	)
@@ -4004,12 +3227,20 @@
 		(uuid "82d34324-f85e-48ab-bb99-b8392dc428b1")
 	)
 	(no_connect
+		(at 326.39 134.62)
+		(uuid "8a49e4d3-dd2d-419e-a35e-6196721e7321")
+	)
+	(no_connect
 		(at 177.8 182.88)
 		(uuid "950ee3b4-7760-4044-a739-7858a0b5336f")
 	)
 	(no_connect
 		(at 177.8 187.96)
 		(uuid "c9e4b267-7710-41e3-9955-b93ed79fd3ad")
+	)
+	(no_connect
+		(at 326.39 132.08)
+		(uuid "d49f10c6-d381-4aed-af95-ae573a2396a6")
 	)
 	(no_connect
 		(at 295.91 198.12)
@@ -4238,16 +3469,6 @@
 			(type default)
 		)
 		(uuid "1d3ca6fd-9bda-4d36-95ec-2173b05b29dd")
-	)
-	(wire
-		(pts
-			(xy 242.57 82.55) (xy 245.11 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e454c72-a38c-4afc-a291-603119910b20")
 	)
 	(wire
 		(pts
@@ -4831,6 +4052,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 82.55) (xy 245.11 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "58585a30-6165-44e3-8bf4-e9b389347bf6")
+	)
+	(wire
+		(pts
 			(xy 205.74 129.54) (xy 196.85 129.54)
 		)
 		(stroke
@@ -5311,7 +4542,7 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 97.79) (xy 237.49 97.79)
+			(xy 233.68 97.79) (xy 238.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -5671,16 +4902,6 @@
 	)
 	(wire
 		(pts
-			(xy 241.3 77.47) (xy 256.54 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a669140d-2474-4708-839e-0ae7c0ca8de5")
-	)
-	(wire
-		(pts
 			(xy 133.35 203.2) (xy 133.35 200.66)
 		)
 		(stroke
@@ -5848,16 +5069,6 @@
 			(type default)
 		)
 		(uuid "b99486b3-4cb6-422c-85f4-eee60cee7538")
-	)
-	(wire
-		(pts
-			(xy 247.65 97.79) (xy 242.57 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba1b8a62-15ab-4900-9550-0aae6e64f686")
 	)
 	(wire
 		(pts
@@ -6171,16 +5382,6 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 77.47) (xy 236.22 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e5aa71ad-3752-48ed-b5df-94546879d241")
-	)
-	(wire
-		(pts
 			(xy 288.29 175.26) (xy 295.91 175.26)
 		)
 		(stroke
@@ -6271,6 +5472,16 @@
 	)
 	(wire
 		(pts
+			(xy 237.49 82.55) (xy 238.76 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2863008-7f3c-4b85-984a-149c80d87326")
+	)
+	(wire
+		(pts
 			(xy 181.61 165.1) (xy 181.61 160.02)
 		)
 		(stroke
@@ -6328,6 +5539,16 @@
 			(type default)
 		)
 		(uuid "f75617bf-fb55-40ab-9bf0-832079ffdf23")
+	)
+	(wire
+		(pts
+			(xy 243.84 97.79) (xy 247.65 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f7661f34-abde-4c24-a4d9-c77dd3d14464")
 	)
 	(wire
 		(pts
@@ -6409,16 +5630,6 @@
 		)
 		(uuid "ff30e084-bc29-4728-a726-58db45f642dd")
 	)
-	(label "3V3_ADC"
-		(at 248.92 77.47 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "3a22415a-89cb-4cea-bda3-d6d585e9d551")
-	)
 	(label "VREFP1"
 		(at 280.67 190.5 0)
 		(effects
@@ -6438,16 +5649,6 @@
 			(justify left bottom)
 		)
 		(uuid "5f773cc2-cce0-46c7-9ecb-7f9a765c2aab")
-	)
-	(label "3V3"
-		(at 228.6 77.47 0)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "c0292cdc-6a4c-488f-a4be-5c876a67ae92")
 	)
 	(global_label "IN3P1"
 		(shape input)
@@ -8149,8 +7350,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "02cc9ceb-e6f2-4f26-bfac-2db05eca804d")
@@ -8176,7 +7377,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 331.47 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -8215,7 +7416,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR02")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8227,8 +7428,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "04dd6f35-1076-4e7e-9bc7-a0ffa1507600")
@@ -8254,7 +7455,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 328.93 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -8293,7 +7494,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR04")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -8442,8 +7643,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0732ed39-b970-4bed-abef-b570ed7ab581")
@@ -8469,7 +7670,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 185.42 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -8508,7 +7709,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR06")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -8929,8 +8130,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "23d38b39-d629-4eb2-b6e2-753244908ad8")
@@ -8956,7 +8157,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 111.76 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -8995,7 +8196,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR08")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -9143,8 +8344,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3caabff0-33a8-4435-a768-a84f36f9c8be")
@@ -9170,7 +8371,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 334.01 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -9209,7 +8410,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR10")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9357,8 +8558,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4510142b-194c-4628-b15f-bd6a635d8776")
@@ -9384,7 +8585,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 369.57 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -9423,86 +8624,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_BCI-easyedapro:Short-Symbol")
-		(at 240.03 92.71 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "48ae19c1-e440-4622-91e2-d9afef9ef4fd")
-		(property "Reference" "JP1"
-			(at 240.03 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 240.03 92.71 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
-			(at 240.03 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 92.71 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5a51a18b-3301-4c4e-81bc-7157767410a4")
-		)
-		(pin "2"
-			(uuid "0e1d0f9a-6dcb-4ba7-ba89-9135f15d3b6f")
-		)
-		(instances
-			(project "import2"
-				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "JP1")
+					(reference "#PWR11")
 					(unit 1)
 				)
 			)
@@ -9776,6 +8898,86 @@
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
 					(reference "RBIAS1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 240.03 87.63 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "59c5170a-a753-4b5a-b381-2ecff6de0cce")
+		(property "Reference" "NT3"
+			(at 240.284 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 240.03 89.154 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 240.03 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "927a16f7-1a2d-4bbc-a114-bd7a0a067991")
+		)
+		(pin "1"
+			(uuid "4b6a6eb5-c682-4023-a9b6-85c59e51bda6")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
+					(reference "NT3")
 					(unit 1)
 				)
 			)
@@ -10191,92 +9393,13 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_BCI-easyedapro:Short-Symbol")
-		(at 240.03 97.79 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6addb9c1-a989-40e1-96d1-770287f4d4eb")
-		(property "Reference" "JP2"
-			(at 240.03 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 240.03 97.79 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
-			(at 240.03 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5bc599db-99ee-4d96-9b52-70d95c38b6d4")
-		)
-		(pin "1"
-			(uuid "0316a9c6-0423-43bf-8d4e-f98f4cfebec8")
-		)
-		(instances
-			(project "import2"
-				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "JP2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ProPrj_BCI-easyedapro:Ground-GND")
 		(at 210.82 165.1 90)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6bff2d25-8fa8-493b-a212-9dd469dd24ad")
@@ -10302,7 +9425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 210.82 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10341,7 +9464,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR14")
+					(reference "#PWR13")
 					(unit 1)
 				)
 			)
@@ -10353,8 +9476,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6cb95009-5384-468f-a904-ebafd501c956")
@@ -10380,7 +9503,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 359.41 165.1 0)
 			(hide yes)
 			(show_name no)
@@ -10419,7 +9542,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR16")
+					(reference "#PWR15")
 					(unit 1)
 				)
 			)
@@ -10764,92 +9887,13 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_BCI-easyedapro:Short-Symbol-Auto")
-		(at 238.76 77.47 0)
-		(unit 0)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "788fd3e1-7546-4955-aee5-685bd4f59212")
-		(property "Reference" "JP3"
-			(at 238.76 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 238.76 77.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
-			(at 238.76 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 238.76 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 238.76 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "c877b60f-823a-40c4-b671-1c79c332da70")
-		)
-		(pin "2"
-			(uuid "0b055556-f000-4561-a29d-f405ee46197a")
-		)
-		(instances
-			(project "import2"
-				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "JP3")
-					(unit 0)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "ProPrj_BCI-easyedapro:Ground-GND")
 		(at 182.88 142.24 90)
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "78cd4730-5fa8-4eb7-ab43-491724f4b65f")
@@ -10875,7 +9919,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 182.88 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -10914,7 +9958,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR18")
+					(reference "#PWR17")
 					(unit 1)
 				)
 			)
@@ -11194,6 +10238,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 240.03 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7d84f355-86cd-421f-af31-fb7f4c2f0224")
+		(property "Reference" "NT2"
+			(at 240.284 92.71 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 240.03 94.234 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 240.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 240.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 240.03 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "e363455e-7e51-4b84-970f-69ee7d111e1a")
+		)
+		(pin "1"
+			(uuid "d2adb18a-9154-485a-97ab-44eb898fdb71")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
+					(reference "NT2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ProPrj_BCI-easyedapro:GRM188R71H104KA93D")
 		(at 113.03 182.88 90)
 		(unit 1)
@@ -11460,85 +10584,6 @@
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
 					(reference "C17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_BCI-easyedapro:Short-Symbol")
-		(at 240.03 87.63 0)
-		(unit 1)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8385bd5c-9d57-46b1-bb56-928bd4084c57")
-		(property "Reference" "JP4"
-			(at 240.03 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 240.03 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
-			(at 240.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 240.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 240.03 87.63 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "81aa07d3-11f7-401b-ae64-a3b2fa512fed")
-		)
-		(pin "2"
-			(uuid "eb25dfd4-784d-4416-818a-d5504cfc2220")
-		)
-		(instances
-			(project "import2"
-				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "JP4")
 					(unit 1)
 				)
 			)
@@ -12232,8 +11277,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a37069bd-29b0-4e8f-bf69-d3779da09253")
@@ -12259,7 +11304,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 157.48 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -12298,7 +11343,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR20")
+					(reference "#PWR19")
 					(unit 1)
 				)
 			)
@@ -12999,18 +12044,18 @@
 		)
 	)
 	(symbol
-		(lib_id "ProPrj_BCI-easyedapro:Short-Symbol")
-		(at 240.03 82.55 0)
+		(lib_id "Device:NetTie_2")
+		(at 241.3 97.79 0)
 		(unit 1)
-		(body_style 0)
+		(body_style 1)
 		(exclude_from_sim no)
-		(in_bom yes)
+		(in_bom no)
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "b0c3c04c-3cd4-4fa6-b117-ce59b576de28")
-		(property "Reference" "JP5"
-			(at 240.03 82.55 0)
+		(uuid "ae1c42b6-ab75-4843-890e-26e685185151")
+		(property "Reference" "NT1"
+			(at 241.554 97.79 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13019,8 +12064,9 @@
 				)
 			)
 		)
-		(property "Value" ""
-			(at 240.03 82.55 0)
+		(property "Value" "NetTie_2"
+			(at 241.3 99.314 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13029,8 +12075,8 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
-			(at 240.03 82.55 0)
+		(property "Footprint" ""
+			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13041,7 +12087,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 82.55 0)
+			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13051,8 +12097,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 240.03 82.55 0)
+		(property "Description" "Net tie, 2 pins"
+			(at 241.3 97.79 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13063,15 +12109,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "22424a41-96dc-4a3a-861c-6be99cd4c88a")
+			(uuid "190465f2-9f20-4e6f-8de2-1035f1b5b194")
 		)
 		(pin "1"
-			(uuid "b93f6c06-4d71-4e7e-90ed-41ec846d059a")
+			(uuid "59d73d8e-31e5-4173-9cff-d344f3da6de9")
 		)
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "JP5")
+					(reference "NT1")
 					(unit 1)
 				)
 			)
@@ -13219,8 +12265,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bdf8db26-1dab-4973-80ce-0acd580916ba")
@@ -13246,7 +12292,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 220.98 184.15 0)
 			(hide yes)
 			(show_name no)
@@ -13285,327 +12331,8 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR22")
+					(reference "#PWR21")
 					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "ProPrj_BCI-easyedapro:Sheet-Symbol_A4")
-		(at 87.63 297.18 0)
-		(unit 0)
-		(body_style 0)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board no)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "bea7b656-7bde-4ef2-9e29-eb189ae0d876")
-		(property "Reference" "F1"
-			(at 87.63 297.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" ""
-			(at 87.63 297.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "@Board Name" "CK-C3-Mini-085-4LY"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "@Create Date" "2025-05-08"
-			(at 351.79 256.54 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.3622 2.3622)
-				)
-				(justify left)
-			)
-		)
-		(property "@Create Time" "04:26:26"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "@Page Count" "3"
-			(at 375.158 281.686 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.3622 2.3622)
-				)
-			)
-		)
-		(property "@Page Name" "ADCs"
-			(at 280.67 261.62 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.3622 2.3622)
-				)
-			)
-		)
-		(property "@Page No" "2"
-			(at 345.44 281.686 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.3622 2.3622)
-				)
-			)
-		)
-		(property "@Project Name" "BCI_nikki_corp_Rasp_ver_2.0"
-			(at 328.93 271.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 3.1496 3.1496)
-				)
-			)
-		)
-		(property "@Schematic Name" "BCI_ADS1299"
-			(at 280.67 254 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 3.1496 3.1496)
-				)
-			)
-		)
-		(property "@Update Date" "2025-05-08"
-			(at 351.79 251.46 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.3622 2.3622)
-				)
-				(justify left)
-			)
-		)
-		(property "@Update Time" "07:00:33"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Blade Width" "10"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Border" "1"
-			(at 87.63 297.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Company" "Designed by --nikki--"
-			(at 348.742 289.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 3.1496 3.1496)
-				)
-			)
-		)
-		(property "Height" "900"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Page Size" "A4"
-			(at 298.45 289.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.3622 2.3622)
-				)
-			)
-		)
-		(property "Region Start" "1"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Title Block" "1"
-			(at 87.63 297.18 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Title Block Position" "3"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Version" "V3.0"
-			(at 277.622 289.56 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 2.3622 2.3622)
-				)
-			)
-		)
-		(property "Width" "1200"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "X Region Count" "6"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Y Region Count" "4"
-			(at 87.63 297.18 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.2446 1.2446)
-				)
-				(justify left bottom)
-			)
-		)
-		(instances
-			(project "import2"
-				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "F1")
-					(unit 0)
 				)
 			)
 		)
@@ -13616,8 +12343,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bffbccc6-c729-46a5-b9b4-7b773c61f06d")
@@ -13643,7 +12370,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 334.01 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -13682,7 +12409,87 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR24")
+					(reference "#PWR23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:NetTie_2")
+		(at 241.3 82.55 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c2466d53-093f-4478-b950-09749cd50d2c")
+		(property "Reference" "NT4"
+			(at 241.554 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "NetTie_2"
+			(at 241.3 84.074 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 241.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 241.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Net tie, 2 pins"
+			(at 241.3 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "0d7b0d44-d77f-4be1-8dbd-88ee9f006233")
+		)
+		(pin "1"
+			(uuid "1c680d9f-8c54-43a9-a124-70853e9beefe")
+		)
+		(instances
+			(project "import2"
+				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
+					(reference "NT4")
 					(unit 1)
 				)
 			)
@@ -13967,8 +12774,8 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cc65d041-4e23-4974-9848-c5b0e2c69def")
@@ -13994,7 +12801,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 334.01 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14033,7 +12840,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR26")
+					(reference "#PWR25")
 					(unit 1)
 				)
 			)
@@ -14045,12 +12852,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd5a52cb-4c0f-4759-bd5c-b1a76e2a581d")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR27"
 			(at 180.34 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -14072,7 +12879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 180.34 213.36 0)
 			(hide yes)
 			(show_name no)
@@ -14111,7 +12918,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR")
+					(reference "#PWR27")
 					(unit 1)
 				)
 			)
@@ -14123,12 +12930,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cfcd1fe9-c26e-478e-afa7-db0d5502eb1f")
-		(property "Reference" "#PWR27"
+		(property "Reference" "#PWR29"
 			(at 260.35 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -14150,7 +12957,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 260.35 187.96 0)
 			(hide yes)
 			(show_name no)
@@ -14189,7 +12996,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR28")
+					(reference "#PWR29")
 					(unit 1)
 				)
 			)
@@ -14201,12 +13008,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d4742b5e-fdba-40f1-8183-43020a728135")
-		(property "Reference" "#PWR29"
+		(property "Reference" "#PWR31"
 			(at 185.42 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14228,7 +13035,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 185.42 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -14267,7 +13074,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR30")
+					(reference "#PWR31")
 					(unit 1)
 				)
 			)
@@ -14618,12 +13425,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e63d38d0-d005-4de6-ba38-51ff05994eb4")
-		(property "Reference" "#PWR31"
+		(property "Reference" "#PWR33"
 			(at 332.74 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14645,7 +13452,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 332.74 190.5 0)
 			(hide yes)
 			(show_name no)
@@ -14684,7 +13491,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR32")
+					(reference "#PWR33")
 					(unit 1)
 				)
 			)
@@ -14696,12 +13503,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e686a2e1-43b6-4915-9d23-afafe1f17094")
-		(property "Reference" "#PWR33"
+		(property "Reference" "#PWR35"
 			(at 306.07 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -14723,7 +13530,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 306.07 238.76 0)
 			(hide yes)
 			(show_name no)
@@ -14762,7 +13569,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR34")
+					(reference "#PWR35")
 					(unit 1)
 				)
 			)
@@ -14774,12 +13581,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed60a665-c0fb-410d-8973-d757d1cc921d")
-		(property "Reference" "#PWR35"
+		(property "Reference" "#PWR37"
 			(at 105.41 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14801,7 +13608,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 105.41 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14840,7 +13647,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR36")
+					(reference "#PWR37")
 					(unit 1)
 				)
 			)
@@ -14852,12 +13659,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ef587684-b9e3-499c-baba-4b7b5cce1888")
-		(property "Reference" "#PWR"
+		(property "Reference" "#PWR39"
 			(at 254 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14879,7 +13686,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 254 218.44 0)
 			(hide yes)
 			(show_name no)
@@ -14918,7 +13725,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/1b8a5fce-a845-4467-ac27-03cf9cf28f5f"
-					(reference "#PWR")
+					(reference "#PWR39")
 					(unit 1)
 				)
 			)

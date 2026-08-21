@@ -169,7 +169,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
 					(name "1"
@@ -187,7 +187,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 5.08 0 180)
 					(length 2.54)
 					(name "2"
@@ -1350,7 +1350,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 2.54 0)
 					(length 2.54)
 					(name "IO1"
@@ -1386,7 +1386,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -8.89 -2.54 0)
 					(length 2.54)
 					(name "GND"
@@ -1404,7 +1404,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 8.89 -2.54 180)
 					(length 2.54)
 					(name "IO3"
@@ -1422,7 +1422,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 8.89 0 180)
 					(length 2.54)
 					(name "IO4"
@@ -1598,7 +1598,7 @@
 						(type none)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 21.59 0)
 					(length 2.54)
 					(name "1"
@@ -1616,7 +1616,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 21.59 180)
 					(length 2.54)
 					(name "2"
@@ -1634,7 +1634,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 19.05 0)
 					(length 2.54)
 					(name "3"
@@ -1652,7 +1652,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 19.05 180)
 					(length 2.54)
 					(name "4"
@@ -1670,7 +1670,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 16.51 0)
 					(length 2.54)
 					(name "5"
@@ -1688,7 +1688,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 16.51 180)
 					(length 2.54)
 					(name "6"
@@ -1706,7 +1706,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 13.97 0)
 					(length 2.54)
 					(name "7"
@@ -1724,7 +1724,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 13.97 180)
 					(length 2.54)
 					(name "8"
@@ -1742,7 +1742,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 11.43 0)
 					(length 2.54)
 					(name "9"
@@ -1760,7 +1760,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 11.43 180)
 					(length 2.54)
 					(name "10"
@@ -1778,7 +1778,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 8.89 0)
 					(length 2.54)
 					(name "11"
@@ -1796,7 +1796,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 8.89 180)
 					(length 2.54)
 					(name "12"
@@ -1814,7 +1814,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 6.35 0)
 					(length 2.54)
 					(name "13"
@@ -1832,7 +1832,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 6.35 180)
 					(length 2.54)
 					(name "14"
@@ -1850,7 +1850,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 3.81 0)
 					(length 2.54)
 					(name "15"
@@ -1868,7 +1868,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 3.81 180)
 					(length 2.54)
 					(name "16"
@@ -1886,7 +1886,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 1.27 0)
 					(length 2.54)
 					(name "17"
@@ -1904,7 +1904,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 1.27 180)
 					(length 2.54)
 					(name "18"
@@ -1922,7 +1922,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -1.27 0)
 					(length 2.54)
 					(name "19"
@@ -1940,7 +1940,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -1.27 180)
 					(length 2.54)
 					(name "20"
@@ -1958,7 +1958,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -3.81 0)
 					(length 2.54)
 					(name "21"
@@ -1976,7 +1976,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -3.81 180)
 					(length 2.54)
 					(name "22"
@@ -1994,7 +1994,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -6.35 0)
 					(length 2.54)
 					(name "23"
@@ -2012,7 +2012,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -6.35 180)
 					(length 2.54)
 					(name "24"
@@ -2030,7 +2030,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -8.89 0)
 					(length 2.54)
 					(name "25"
@@ -2048,7 +2048,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -8.89 180)
 					(length 2.54)
 					(name "26"
@@ -2066,7 +2066,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -11.43 0)
 					(length 2.54)
 					(name "27"
@@ -2084,7 +2084,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -11.43 180)
 					(length 2.54)
 					(name "28"
@@ -2102,7 +2102,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -13.97 0)
 					(length 2.54)
 					(name "29"
@@ -2120,7 +2120,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -13.97 180)
 					(length 2.54)
 					(name "30"
@@ -2138,7 +2138,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -16.51 0)
 					(length 2.54)
 					(name "31"
@@ -2156,7 +2156,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -16.51 180)
 					(length 2.54)
 					(name "32"
@@ -2174,7 +2174,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -19.05 0)
 					(length 2.54)
 					(name "33"
@@ -2192,7 +2192,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -19.05 180)
 					(length 2.54)
 					(name "34"
@@ -2210,7 +2210,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at -7.62 -21.59 0)
 					(length 2.54)
 					(name "35"
@@ -2228,7 +2228,7 @@
 						)
 					)
 				)
-				(pin unspecified line
+				(pin passive line
 					(at 7.62 -21.59 180)
 					(length 2.54)
 					(name "36"
@@ -8526,12 +8526,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "01c8524f-e81c-4e93-8216-8c8dfb27dd49")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR41"
 			(at 391.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8553,7 +8553,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 391.16 186.69 0)
 			(hide yes)
 			(show_name no)
@@ -8592,7 +8592,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR02")
+					(reference "#PWR41")
 					(unit 1)
 				)
 			)
@@ -9106,12 +9106,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "06581f66-80c0-4e49-acee-1bad33709af8")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR43"
 			(at 391.16 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9133,7 +9133,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 391.16 85.09 0)
 			(hide yes)
 			(show_name no)
@@ -9172,7 +9172,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR04")
+					(reference "#PWR43")
 					(unit 1)
 				)
 			)
@@ -10209,12 +10209,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1525a1f5-532c-4948-9531-02c948e1a903")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR45"
 			(at 287.02 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10236,7 +10236,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 287.02 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -10275,7 +10275,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR06")
+					(reference "#PWR45")
 					(unit 1)
 				)
 			)
@@ -10538,12 +10538,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "170900c0-0c6a-49b5-835a-d91c24deb5ae")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR47"
 			(at 287.02 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -10565,7 +10565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 287.02 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -10604,7 +10604,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR08")
+					(reference "#PWR47")
 					(unit 1)
 				)
 			)
@@ -10867,12 +10867,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a735f5f-497e-417f-a125-274bcefa0a66")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR48"
 			(at 118.11 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -10894,7 +10894,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 118.11 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -10933,7 +10933,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR10")
+					(reference "#PWR48")
 					(unit 1)
 				)
 			)
@@ -10945,12 +10945,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1b802f8f-c5d0-4e5c-86c5-08eb31c9fcc5")
-		(property "Reference" "#PWR11"
+		(property "Reference" "#PWR49"
 			(at 118.11 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -10972,7 +10972,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 118.11 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -11011,7 +11011,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR12")
+					(reference "#PWR49")
 					(unit 1)
 				)
 			)
@@ -11023,12 +11023,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1d3303f7-61ce-44d7-a422-fb12f1ceae62")
-		(property "Reference" "#PWR13"
+		(property "Reference" "#PWR50"
 			(at 57.15 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11050,7 +11050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 57.15 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11089,7 +11089,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR14")
+					(reference "#PWR50")
 					(unit 1)
 				)
 			)
@@ -11488,12 +11488,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "28bdb80d-be68-45f5-8279-78ec2871f46b")
-		(property "Reference" "#PWR15"
+		(property "Reference" "#PWR51"
 			(at 287.02 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11515,7 +11515,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 287.02 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -11554,7 +11554,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR16")
+					(reference "#PWR51")
 					(unit 1)
 				)
 			)
@@ -11566,12 +11566,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "30833ced-f390-437f-b018-b1a72ac6c8af")
-		(property "Reference" "#PWR17"
+		(property "Reference" "#PWR52"
 			(at 118.11 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11593,7 +11593,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 118.11 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -11632,7 +11632,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR18")
+					(reference "#PWR52")
 					(unit 1)
 				)
 			)
@@ -13116,12 +13116,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4529cbaf-54b4-41c1-ab04-7bb01603ca31")
-		(property "Reference" "#PWR19"
+		(property "Reference" "#PWR53"
 			(at 391.16 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13143,7 +13143,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 391.16 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -13182,7 +13182,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR20")
+					(reference "#PWR53")
 					(unit 1)
 				)
 			)
@@ -14015,12 +14015,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "563bec16-9555-43ab-9b7e-7c1013fd80a6")
-		(property "Reference" "#PWR21"
+		(property "Reference" "#PWR54"
 			(at 391.16 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -14042,7 +14042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 391.16 212.09 0)
 			(hide yes)
 			(show_name no)
@@ -14081,7 +14081,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR22")
+					(reference "#PWR54")
 					(unit 1)
 				)
 			)
@@ -15254,12 +15254,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "61cfa7d2-5942-4800-8bdb-6a07f4a7fada")
-		(property "Reference" "#PWR23"
+		(property "Reference" "#PWR55"
 			(at 391.16 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -15281,7 +15281,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 391.16 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -15320,7 +15320,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR24")
+					(reference "#PWR55")
 					(unit 1)
 				)
 			)
@@ -15468,12 +15468,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6433eb13-55b7-46c6-9d60-9762058701b4")
-		(property "Reference" "#PWR25"
+		(property "Reference" "#PWR56"
 			(at 287.02 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -15495,7 +15495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 287.02 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -15534,7 +15534,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR26")
+					(reference "#PWR56")
 					(unit 1)
 				)
 			)
@@ -15818,12 +15818,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "649e7470-4c60-42e0-b2c5-990994773771")
-		(property "Reference" "#PWR27"
+		(property "Reference" "#PWR57"
 			(at 391.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15845,7 +15845,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 391.16 59.69 0)
 			(hide yes)
 			(show_name no)
@@ -15884,7 +15884,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR28")
+					(reference "#PWR57")
 					(unit 1)
 				)
 			)
@@ -15896,12 +15896,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "67aeeaeb-4d7c-4e2b-8187-d266a2af27f5")
-		(property "Reference" "#PWR29"
+		(property "Reference" "#PWR58"
 			(at 118.11 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15923,7 +15923,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 118.11 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -15962,7 +15962,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR30")
+					(reference "#PWR58")
 					(unit 1)
 				)
 			)
@@ -15974,12 +15974,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6836e451-850a-4971-9e09-c8e6a9423493")
-		(property "Reference" "#PWR31"
+		(property "Reference" "#PWR59"
 			(at 54.61 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -16001,7 +16001,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 54.61 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -16040,7 +16040,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR32")
+					(reference "#PWR59")
 					(unit 1)
 				)
 			)
@@ -16057,7 +16057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "685142bf-dd0e-4aeb-ab66-a53c2c36dd85")
-		(property "Reference" "F1"
+		(property "Reference" "#FR02"
 			(at 347.98 259.08 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16077,7 +16077,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 347.98 259.08 0)
 			(hide yes)
 			(show_name no)
@@ -16359,7 +16359,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "F1")
+					(reference "#FR02")
 					(unit 0)
 				)
 			)
@@ -16622,12 +16622,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6fd5a78e-1a55-4249-a3d2-57858b766ba0")
-		(property "Reference" "#PWR33"
+		(property "Reference" "#PWR60"
 			(at 391.16 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16649,7 +16649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 391.16 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -16688,7 +16688,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR34")
+					(reference "#PWR60")
 					(unit 1)
 				)
 			)
@@ -16836,12 +16836,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "71f38dc5-0215-498d-9f96-dd3831c8048b")
-		(property "Reference" "#PWR35"
+		(property "Reference" "#PWR61"
 			(at 287.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16863,7 +16863,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 287.02 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -16902,7 +16902,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR36")
+					(reference "#PWR61")
 					(unit 1)
 				)
 			)
@@ -20525,12 +20525,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b25e1b32-bcc9-4cbd-a8c6-05329ec13eca")
-		(property "Reference" "#PWR37"
+		(property "Reference" "#PWR62"
 			(at 287.02 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -20552,7 +20552,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 287.02 201.93 0)
 			(hide yes)
 			(show_name no)
@@ -20591,7 +20591,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR38")
+					(reference "#PWR62")
 					(unit 1)
 				)
 			)
@@ -20603,12 +20603,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b34ac255-6422-45f9-9499-10304fc91226")
-		(property "Reference" "#PWR39"
+		(property "Reference" "#PWR63"
 			(at 391.16 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -20630,7 +20630,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 391.16 135.89 0)
 			(hide yes)
 			(show_name no)
@@ -20669,7 +20669,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR40")
+					(reference "#PWR63")
 					(unit 1)
 				)
 			)
@@ -21604,12 +21604,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c6797e46-95c3-4e26-81b7-b6b3e372189e")
-		(property "Reference" "#PWR41"
+		(property "Reference" "#PWR64"
 			(at 287.02 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -21631,7 +21631,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 287.02 49.53 0)
 			(hide yes)
 			(show_name no)
@@ -21670,7 +21670,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR42")
+					(reference "#PWR64")
 					(unit 1)
 				)
 			)
@@ -21954,12 +21954,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c794be85-846a-405f-8375-888d1a3a4786")
-		(property "Reference" "#PWR43"
+		(property "Reference" "#PWR65"
 			(at 118.11 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -21981,7 +21981,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 118.11 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -22020,7 +22020,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR44")
+					(reference "#PWR65")
 					(unit 1)
 				)
 			)
@@ -22283,12 +22283,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c9bdceb3-36cb-4ee6-b10a-a4a741338bcd")
-		(property "Reference" "#PWR45"
+		(property "Reference" "#PWR66"
 			(at 118.11 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22310,7 +22310,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 118.11 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22349,7 +22349,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR46")
+					(reference "#PWR66")
 					(unit 1)
 				)
 			)
@@ -22497,12 +22497,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cb64ee42-2deb-4e48-92a2-9fa8a10a2b2b")
-		(property "Reference" "#PWR47"
+		(property "Reference" "#PWR67"
 			(at 223.52 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -22524,7 +22524,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 223.52 19.05 0)
 			(hide yes)
 			(show_name no)
@@ -22563,7 +22563,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR48")
+					(reference "#PWR67")
 					(unit 1)
 				)
 			)
@@ -22711,12 +22711,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "cd6c751a-80a4-4c7c-88ef-48fbf135cad7")
-		(property "Reference" "#PWR49"
+		(property "Reference" "#PWR68"
 			(at 287.02 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22738,7 +22738,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 287.02 171.45 0)
 			(hide yes)
 			(show_name no)
@@ -22777,7 +22777,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR50")
+					(reference "#PWR68")
 					(unit 1)
 				)
 			)
@@ -23801,12 +23801,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "daa1972a-44b7-4fa4-95d8-d57b2488186e")
-		(property "Reference" "#PWR51"
+		(property "Reference" "#PWR69"
 			(at 118.11 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -23828,7 +23828,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 118.11 232.41 0)
 			(hide yes)
 			(show_name no)
@@ -23867,7 +23867,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR52")
+					(reference "#PWR69")
 					(unit 1)
 				)
 			)
@@ -24015,12 +24015,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "deacfcfe-c23d-41a6-8ef7-cb266c79612d")
-		(property "Reference" "#PWR53"
+		(property "Reference" "#PWR70"
 			(at 118.11 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -24042,7 +24042,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 118.11 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -24081,7 +24081,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR54")
+					(reference "#PWR70")
 					(unit 1)
 				)
 			)
@@ -24629,12 +24629,12 @@
 		(unit 1)
 		(body_style 0)
 		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
+		(in_bom no)
+		(on_board no)
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e597a6b0-febe-415b-9493-3cbf979038c8")
-		(property "Reference" "#PWR55"
+		(property "Reference" "#PWR71"
 			(at 391.16 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -24656,7 +24656,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ProPrj_BCI-easyedapro:"
+		(property "Footprint" ""
 			(at 391.16 237.49 0)
 			(hide yes)
 			(show_name no)
@@ -24695,7 +24695,7 @@
 		(instances
 			(project "import2"
 				(path "/06cae45c-d474-473f-93a9-05a684cc4e1b/68715cd1-9dff-4f45-ad1f-26f03da81a9e"
-					(reference "#PWR56")
+					(reference "#PWR71")
 					(unit 1)
 				)
 			)
