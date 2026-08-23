@@ -1,0 +1,2004 @@
+{
+    "$schema": "https://schemas.kicad.org/erc.v1.json",
+    "coordinate_units": "mm",
+    "date": "2026-08-23T10:28:04",
+    "ignored_checks": [
+        {
+            "description": "Global label only appears once in the schematic",
+            "key": "single_global_label"
+        },
+        {
+            "description": "Four connection points are joined together",
+            "key": "four_way_junction"
+        },
+        {
+            "description": "SPICE model issue",
+            "key": "simulation_model_issue"
+        },
+        {
+            "description": "Assigned footprint doesn't match footprint filters",
+            "key": "footprint_filter"
+        }
+    ],
+    "included_severities": [
+        "error",
+        "warning"
+    ],
+    "kicad_version": "10.0.4",
+    "sheets": [
+        {
+            "path": "/",
+            "uuid_path": "/ee53385d-534f-4fdf-b4ea-8db40a703862",
+            "violations": [
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RD1 [0402WGF5101TCE]",
+                            "pos": {
+                                "x": 0.2667,
+                                "y": 0.5969
+                            },
+                            "uuid": "1d8389b5-6b14-4d5d-ada8-629603c4e575"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RD1 [0402WGF5101TCE]",
+                            "pos": {
+                                "x": 0.2667,
+                                "y": 0.5969
+                            },
+                            "uuid": "1d8389b5-6b14-4d5d-ada8-629603c4e575"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR34 [Ground-GND]",
+                            "pos": {
+                                "x": 0.3175,
+                                "y": 0.6858
+                            },
+                            "uuid": "9b0fc397-8210-4964-a14a-6fce9c48d4ec"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RD2 [0402WGF5101TCE]",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.5969
+                            },
+                            "uuid": "d59059d9-706e-4167-a72a-ab7a51ceda30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RD2 [0402WGF5101TCE]",
+                            "pos": {
+                                "x": 0.3683,
+                                "y": 0.5969
+                            },
+                            "uuid": "d59059d9-706e-4167-a72a-ab7a51ceda30"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR38 [Ground-GND]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 1.1938
+                            },
+                            "uuid": "c9167396-1a97-477f-9d49-61bfb79b05ac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR26 [Ground-GND]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 1.905
+                            },
+                            "uuid": "744d5c65-3960-4cae-9b68-7a951442e136"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb5 [RC0402FR-0736K5L]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 2.0828
+                            },
+                            "uuid": "877bf49d-09b3-46a4-9feb-fa832c59ac9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb5 [RC0402FR-0736K5L]",
+                            "pos": {
+                                "x": 0.4318,
+                                "y": 2.0828
+                            },
+                            "uuid": "877bf49d-09b3-46a4-9feb-fa832c59ac9e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb6 [RC0402FR-070RL]",
+                            "pos": {
+                                "x": 0.5207,
+                                "y": 1.905
+                            },
+                            "uuid": "5725468e-edf6-4b45-9bcc-a96940574edb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb6 [RC0402FR-070RL]",
+                            "pos": {
+                                "x": 0.5207,
+                                "y": 1.905
+                            },
+                            "uuid": "5725468e-edf6-4b45-9bcc-a96940574edb"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb4 [RC0402FR-0736K5L]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 2.0828
+                            },
+                            "uuid": "b6403289-a850-4ce3-917a-8c50184eb2d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb4 [RC0402FR-0736K5L]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 2.0828
+                            },
+                            "uuid": "b6403289-a850-4ce3-917a-8c50184eb2d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR30 [Ground-GND]",
+                            "pos": {
+                                "x": 0.5461,
+                                "y": 2.1844
+                            },
+                            "uuid": "8d7e63d4-bf39-42dc-bd7c-f1e92ade2f23"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U14 [TPS62821DLCR]",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 1.1303
+                            },
+                            "uuid": "143fb0f2-e9ea-49b4-9d3e-9cf6a4826386"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U14 [TPS62821DLCR]",
+                            "pos": {
+                                "x": 0.5715,
+                                "y": 1.1303
+                            },
+                            "uuid": "143fb0f2-e9ea-49b4-9d3e-9cf6a4826386"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb7 [RC0402FR-070RL]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 1.8542
+                            },
+                            "uuid": "ac18d1d0-4d39-4a89-8c32-26a9315893a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb7 [RC0402FR-070RL]",
+                            "pos": {
+                                "x": 0.5842,
+                                "y": 1.8542
+                            },
+                            "uuid": "ac18d1d0-4d39-4a89-8c32-26a9315893a6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol F2 [0467001.NRHF]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 0.7366
+                            },
+                            "uuid": "911543cd-9825-426b-8220-d46a7f1836df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol F2 [0467001.NRHF]",
+                            "pos": {
+                                "x": 0.6477,
+                                "y": 0.7366
+                            },
+                            "uuid": "911543cd-9825-426b-8220-d46a7f1836df"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb3 [RC0402FR-0736K5L]",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 2.0828
+                            },
+                            "uuid": "1d737c09-f6f5-41f5-8653-48a8db27fefa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb3 [RC0402FR-0736K5L]",
+                            "pos": {
+                                "x": 0.6604,
+                                "y": 2.0828
+                            },
+                            "uuid": "1d737c09-f6f5-41f5-8653-48a8db27fefa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR32 [Ground-GND]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.0668
+                            },
+                            "uuid": "99daeca4-18d5-472b-bd0d-936a56b5ba67"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR12 [Ground-GND]",
+                            "pos": {
+                                "x": 0.7112,
+                                "y": 1.1938
+                            },
+                            "uuid": "310c471c-d61c-41fb-9015-51edb8514ec2"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol USB1 [TYPE-C 16PIN 2MD(073)]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 0.3556
+                            },
+                            "uuid": "4149edf7-9b20-42c2-b1f8-185fd18d8104"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol USB1 [TYPE-C 16PIN 2MD(073)]",
+                            "pos": {
+                                "x": 0.7239,
+                                "y": 0.3556
+                            },
+                            "uuid": "4149edf7-9b20-42c2-b1f8-185fd18d8104"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR20 [Ground-GND]",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 0.9398
+                            },
+                            "uuid": "5c8217a2-d1a2-4367-87bc-92d60f376256"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C227 [GRM187R61A226ME15D]",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 1.0033
+                            },
+                            "uuid": "c30b9676-93e8-452b-8230-1bf16d22514a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C227 [GRM187R61A226ME15D]",
+                            "pos": {
+                                "x": 0.7874,
+                                "y": 1.0033
+                            },
+                            "uuid": "c30b9676-93e8-452b-8230-1bf16d22514a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U15 [TPS63900DSKR]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 1.9431
+                            },
+                            "uuid": "8b992e4a-ffc5-4762-8065-c860ca2714cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U15 [TPS63900DSKR]",
+                            "pos": {
+                                "x": 0.8001,
+                                "y": 1.9431
+                            },
+                            "uuid": "8b992e4a-ffc5-4762-8065-c860ca2714cf"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [DFE252012P-1R0M=P2]",
+                            "pos": {
+                                "x": 0.8382,
+                                "y": 1.143
+                            },
+                            "uuid": "99cbebef-4c70-485d-9dd1-d5a4b941b9cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol L1 [DFE252012P-1R0M=P2]",
+                            "pos": {
+                                "x": 0.8382,
+                                "y": 1.143
+                            },
+                            "uuid": "99cbebef-4c70-485d-9dd1-d5a4b941b9cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb1 [RC0402FR-07560KL]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.2065
+                            },
+                            "uuid": "54c01d69-40dc-48b2-b94f-1513fadc2fc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb1 [RC0402FR-07560KL]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.2065
+                            },
+                            "uuid": "54c01d69-40dc-48b2-b94f-1513fadc2fc3"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb2 [RC0402FR-07100KL]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.3335
+                            },
+                            "uuid": "84db1484-5fe9-4f07-8c8b-c56a4b0d725b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Rb2 [RC0402FR-07100KL]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.3335
+                            },
+                            "uuid": "84db1484-5fe9-4f07-8c8b-c56a4b0d725b"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR44 [Ground-GND]",
+                            "pos": {
+                                "x": 0.9017,
+                                "y": 1.397
+                            },
+                            "uuid": "de7dbc2c-2546-461f-ad0f-360212fbc9aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR02 [Ground-GND]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 1.8542
+                            },
+                            "uuid": "0dc13aa4-df7c-46dd-9566-21890a463ca0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR40 [Ground-GND]",
+                            "pos": {
+                                "x": 0.9271,
+                                "y": 1.9558
+                            },
+                            "uuid": "cde0cb3a-6dc4-4552-a185-ea27b161f66a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C233 [GRM187R60J226ME15D]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 2.1209
+                            },
+                            "uuid": "257c0848-372e-4eef-bbf1-15386f725823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C233 [GRM187R60J226ME15D]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 2.1209
+                            },
+                            "uuid": "257c0848-372e-4eef-bbf1-15386f725823"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR22 [Ground-GND]",
+                            "pos": {
+                                "x": 0.9398,
+                                "y": 2.1844
+                            },
+                            "uuid": "5cc998de-355b-4736-9ff0-a8cb4150e4d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C234 [AC0402FRNPO9BN121]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 1.2065
+                            },
+                            "uuid": "bbd74e98-b91f-4189-8bce-7e3871d6d1ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C234 [AC0402FRNPO9BN121]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 1.2065
+                            },
+                            "uuid": "bbd74e98-b91f-4189-8bce-7e3871d6d1ca"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR46 [Ground-GND]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 1.7399
+                            },
+                            "uuid": "e8da24b7-eccf-4f7e-b6ef-cb6682940f3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C232 [CL10A476MQ8QRNC]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 1.8034
+                            },
+                            "uuid": "cd888e58-a57b-41f5-8e87-8b33c5f85c45"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C232 [CL10A476MQ8QRNC]",
+                            "pos": {
+                                "x": 1.0033,
+                                "y": 1.8034
+                            },
+                            "uuid": "cd888e58-a57b-41f5-8e87-8b33c5f85c45"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol L2 [DFE252012F-2R2M=P2]",
+                            "pos": {
+                                "x": 1.0541,
+                                "y": 1.9558
+                            },
+                            "uuid": "d8e55a41-8300-4d82-88cb-3ca5095c7861"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol L2 [DFE252012F-2R2M=P2]",
+                            "pos": {
+                                "x": 1.0541,
+                                "y": 1.9558
+                            },
+                            "uuid": "d8e55a41-8300-4d82-88cb-3ca5095c7861"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol CP1 [10uF]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4953
+                            },
+                            "uuid": "136b0784-383f-4c0a-80a2-aae4f4665794"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol CP1 [10uF]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.4953
+                            },
+                            "uuid": "136b0784-383f-4c0a-80a2-aae4f4665794"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR28 [Ground-GND]",
+                            "pos": {
+                                "x": 1.1049,
+                                "y": 0.5588
+                            },
+                            "uuid": "7e733b15-1672-44d3-b343-51bd9dce2e70"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR06 [Ground-GND]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 0.381
+                            },
+                            "uuid": "1803561c-6e36-40b7-8618-0e06f2072cd7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C228 [CL10A476MQ8QRNC]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.2065
+                            },
+                            "uuid": "547e5183-fa02-4442-b739-dbc7f242624d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C228 [CL10A476MQ8QRNC]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.2065
+                            },
+                            "uuid": "547e5183-fa02-4442-b739-dbc7f242624d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR04 [Ground-GND]",
+                            "pos": {
+                                "x": 1.1176,
+                                "y": 1.27
+                            },
+                            "uuid": "1612126f-8aee-461d-bbde-db2d9d0a7a0f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C231 [GRM188Z71A106MA73D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.2065
+                            },
+                            "uuid": "3fab6fc0-117b-4ac3-a796-3d843e44bb36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C231 [GRM188Z71A106MA73D]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.2065
+                            },
+                            "uuid": "3fab6fc0-117b-4ac3-a796-3d843e44bb36"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR14 [Ground-GND]",
+                            "pos": {
+                                "x": 1.2192,
+                                "y": 1.27
+                            },
+                            "uuid": "3216ee9a-33b9-4a5d-8530-e6f974fd0988"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR42 [3V3]",
+                            "pos": {
+                                "x": 1.2446,
+                                "y": 1.143
+                            },
+                            "uuid": "d8cd7b93-5073-4704-bb95-c0544481a32f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'normalized-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [TP4057]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.381
+                            },
+                            "uuid": "fba19f5c-ebbc-4c53-847c-b78f216471ae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol P1 [TP4057]",
+                            "pos": {
+                                "x": 1.2827,
+                                "y": 0.381
+                            },
+                            "uuid": "fba19f5c-ebbc-4c53-847c-b78f216471ae"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol LED1 [NH-B2020RGBA-HF]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.6477
+                            },
+                            "uuid": "cda96eee-730e-4d8a-ba9d-a791622acd91"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol LED1 [NH-B2020RGBA-HF]",
+                            "pos": {
+                                "x": 1.4224,
+                                "y": 0.6477
+                            },
+                            "uuid": "cda96eee-730e-4d8a-ba9d-a791622acd91"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RA1 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 1.4986,
+                                "y": 0.3302
+                            },
+                            "uuid": "c206d02d-a944-4adc-8633-63992dd16093"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RA1 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 1.4986,
+                                "y": 0.3302
+                            },
+                            "uuid": "c206d02d-a944-4adc-8633-63992dd16093"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 1.778
+                            },
+                            "uuid": "3d084a10-b757-4ddb-9ade-2c53e7865e7c"
+                        },
+                        {
+                            "description": "Symbol #PWR072 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.5367,
+                                "y": 1.778
+                            },
+                            "uuid": "bf8dae1c-cf84-42bb-924f-6aa610a2ba2d"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR18 [Ground-GND]",
+                            "pos": {
+                                "x": 1.5621,
+                                "y": 0.3175
+                            },
+                            "uuid": "515292ce-76b9-4a12-b3ba-c7c20f88b287"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RL1 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6731
+                            },
+                            "uuid": "5305b2d8-6f98-4858-bb4a-cb0152c4aaf1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RL1 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 0.6731
+                            },
+                            "uuid": "5305b2d8-6f98-4858-bb4a-cb0152c4aaf1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'normalized-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C224 [GRM219R61A106KE44D]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 1.7272
+                            },
+                            "uuid": "0b4a412b-3b65-486a-859d-966e77d0cae6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C224 [GRM219R61A106KE44D]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 1.7272
+                            },
+                            "uuid": "0b4a412b-3b65-486a-859d-966e77d0cae6"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW1 Pin 4 [4, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 1.778
+                            },
+                            "uuid": "074f3149-48c6-4647-9f60-67be5b5e9bbd"
+                        },
+                        {
+                            "description": "Symbol C224 Pin 1 [1, Passive, Line]",
+                            "pos": {
+                                "x": 1.5875,
+                                "y": 1.778
+                            },
+                            "uuid": "f6d8d053-bd3d-4ba2-95c4-af222a5af842"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RPWDN1 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 1.5113
+                            },
+                            "uuid": "c7a180c5-a8d1-43a7-8eea-4372175424be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RPWDN1 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 1.6256,
+                                "y": 1.5113
+                            },
+                            "uuid": "c7a180c5-a8d1-43a7-8eea-4372175424be"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C223 [GRM188R71H104KA93D]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.0287
+                            },
+                            "uuid": "36ac0c39-f96e-4d22-bc94-46c9958610fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C223 [GRM188R71H104KA93D]",
+                            "pos": {
+                                "x": 1.6764,
+                                "y": 1.0287
+                            },
+                            "uuid": "36ac0c39-f96e-4d22-bc94-46c9958610fc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Pins of type Unspecified and Power input are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW2 Pin 2 [2, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 1.778
+                            },
+                            "uuid": "b8f7ce96-7317-4497-b61f-7a04e43522cc"
+                        },
+                        {
+                            "description": "Symbol #PWR075 Pin 1 [Power input, Line]",
+                            "pos": {
+                                "x": 1.6891,
+                                "y": 1.778
+                            },
+                            "uuid": "a2c885d6-5913-4348-8169-b3591ae34752"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [RC0402FR-074K7L]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.2065
+                            },
+                            "uuid": "825fbc3b-578e-4718-aeac-d0c8c74ecb40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol R1 [RC0402FR-074K7L]",
+                            "pos": {
+                                "x": 1.7145,
+                                "y": 1.2065
+                            },
+                            "uuid": "825fbc3b-578e-4718-aeac-d0c8c74ecb40"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C222 [GRM219R61A106KE44D]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 1.0287
+                            },
+                            "uuid": "b76718c8-790b-4d8f-8fa6-3d3c78e3ab5f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C222 [GRM219R61A106KE44D]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 1.0287
+                            },
+                            "uuid": "b76718c8-790b-4d8f-8fa6-3d3c78e3ab5f"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Pins of type Unspecified and Passive are connected",
+                    "items": [
+                        {
+                            "description": "Symbol SW2 Pin 4 [4, Unspecified, Line]",
+                            "pos": {
+                                "x": 1.7399,
+                                "y": 1.778
+                            },
+                            "uuid": "4e1f5660-83b1-4b13-b1c2-5d6650e87345"
+                        },
+                        {
+                            "description": "Symbol RBOOT1 Pin 2 [2, Passive, Line]",
+                            "pos": {
+                                "x": 1.7907,
+                                "y": 1.778
+                            },
+                            "uuid": "777e3968-aeeb-40a6-b3c6-eb26e87cde3e"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "pin_to_pin"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'MISO'",
+                            "pos": {
+                                "x": 1.7653,
+                                "y": 1.1303
+                            },
+                            "uuid": "975f06bd-1ccf-4e28-89c5-fe7fbaefc6ce"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'INT'",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 1.1557
+                            },
+                            "uuid": "a5b1cd7d-91ea-4f44-b42f-75aa6e792f01"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CSEL2'",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 1.2573
+                            },
+                            "uuid": "5ba8d0b2-7fa9-447d-a542-104d8c1849a0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'START'",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 1.3081
+                            },
+                            "uuid": "f8d3047d-25d7-48d2-82f8-fd560c727e38"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'CSEL1'",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 1.3335
+                            },
+                            "uuid": "063cc83d-ebd4-4e19-b6c7-7b049815aeef"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'MOSI'",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 1.3843
+                            },
+                            "uuid": "3d7ef1d0-4cc6-455a-80ad-d5707fbc74cd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'RESET'",
+                            "pos": {
+                                "x": 1.8034,
+                                "y": 1.4097
+                            },
+                            "uuid": "03c9c88f-be0c-4563-88b8-ab5967a3bca4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label 'SCLK'",
+                            "pos": {
+                                "x": 1.8161,
+                                "y": 1.4859
+                            },
+                            "uuid": "3496a82e-1b68-42ed-82d8-2c756f51b7ac"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RBOOT1 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 1.8415,
+                                "y": 1.778
+                            },
+                            "uuid": "44c1648e-6cd6-4ba3-97a4-c2af86e0a511"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RBOOT1 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 1.8415,
+                                "y": 1.778
+                            },
+                            "uuid": "44c1648e-6cd6-4ba3-97a4-c2af86e0a511"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [ESP32-C6-MINI-1-N4]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 1.3843
+                            },
+                            "uuid": "d72f9c83-3bdd-40f4-b8c9-9530a0360bbc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U2 [ESP32-C6-MINI-1-N4]",
+                            "pos": {
+                                "x": 1.9304,
+                                "y": 1.3843
+                            },
+                            "uuid": "d72f9c83-3bdd-40f4-b8c9-9530a0360bbc"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label '3V3_ADC'",
+                            "pos": {
+                                "x": 2.2479,
+                                "y": 1.0287
+                            },
+                            "uuid": "a350723d-ff69-4e14-9977-f208bd7bb181"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [PZ2.54-2*4]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.9779
+                            },
+                            "uuid": "fe6172a7-9d6d-401a-b403-5d57f514d47c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U1 [PZ2.54-2*4]",
+                            "pos": {
+                                "x": 2.2606,
+                                "y": 0.9779
+                            },
+                            "uuid": "fe6172a7-9d6d-401a-b403-5d57f514d47c"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [DMG1013T-7]",
+                            "pos": {
+                                "x": 2.2733,
+                                "y": 0.3556
+                            },
+                            "uuid": "525fd13f-0cb3-47c8-9dec-17b8ced1e2c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol Q1 [DMG1013T-7]",
+                            "pos": {
+                                "x": 2.2733,
+                                "y": 0.3556
+                            },
+                            "uuid": "525fd13f-0cb3-47c8-9dec-17b8ced1e2c7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "Label connected to only one pin",
+                    "items": [
+                        {
+                            "description": "Global Label '5V_ADC'",
+                            "pos": {
+                                "x": 2.2987,
+                                "y": 1.0287
+                            },
+                            "uuid": "59e4ff71-4caa-4646-ad1f-93e91a568309"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "isolated_pin_label"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol D11 [RB161QS-40T18R]",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.4318
+                            },
+                            "uuid": "f94f012c-d960-4a49-9259-c9809a9d2b46"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol D11 [RB161QS-40T18R]",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.4318
+                            },
+                            "uuid": "f94f012c-d960-4a49-9259-c9809a9d2b46"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol R8 [0402WGF1002TCE]",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.5842
+                            },
+                            "uuid": "74192c55-6d55-410c-816b-078322242c85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol R8 [0402WGF1002TCE]",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.5842
+                            },
+                            "uuid": "74192c55-6d55-410c-816b-078322242c85"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR08 [Ground-GND]",
+                            "pos": {
+                                "x": 2.3749,
+                                "y": 0.6604
+                            },
+                            "uuid": "1e8c3bf3-92f1-421d-b035-059a8164b4f7"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol H1 [A2541HWR-2X6P_C5333437]",
+                            "pos": {
+                                "x": 2.3876,
+                                "y": 1.3843
+                            },
+                            "uuid": "71527826-ad4f-4e29-9a21-2e76d2b0c766"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol H1 [A2541HWR-2X6P_C5333437]",
+                            "pos": {
+                                "x": 2.3876,
+                                "y": 1.3843
+                            },
+                            "uuid": "71527826-ad4f-4e29-9a21-2e76d2b0c766"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR36 [Ground-GND]",
+                            "pos": {
+                                "x": 2.7305,
+                                "y": 1.2319
+                            },
+                            "uuid": "9c824884-d70a-4b17-b4aa-c6d84eabc721"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C_adc1 [CL05B104KO5NNNC]",
+                            "pos": {
+                                "x": 2.7559,
+                                "y": 1.143
+                            },
+                            "uuid": "2fd425b5-ce80-49aa-802f-1baf283fd285"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol C_adc1 [CL05B104KO5NNNC]",
+                            "pos": {
+                                "x": 2.7559,
+                                "y": 1.143
+                            },
+                            "uuid": "2fd425b5-ce80-49aa-802f-1baf283fd285"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol R_adc1 [0402WGF1002TCE]",
+                            "pos": {
+                                "x": 2.8321,
+                                "y": 1.2319
+                            },
+                            "uuid": "e3e87add-fd2a-48db-81c8-d6d848dd72f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol R_adc1 [0402WGF1002TCE]",
+                            "pos": {
+                                "x": 2.8321,
+                                "y": 1.2319
+                            },
+                            "uuid": "e3e87add-fd2a-48db-81c8-d6d848dd72f5"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR10 [Ground-GND]",
+                            "pos": {
+                                "x": 2.8448,
+                                "y": 0.6858
+                            },
+                            "uuid": "2b1014af-fb82-4668-8cf8-cbd6a7453cc4"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol LED2 [XL-1606UWC]",
+                            "pos": {
+                                "x": 2.8448,
+                                "y": 1.6637
+                            },
+                            "uuid": "9d5f874e-d66d-45e7-997c-dd42d42e7978"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol LED2 [XL-1606UWC]",
+                            "pos": {
+                                "x": 2.8448,
+                                "y": 1.6637
+                            },
+                            "uuid": "9d5f874e-d66d-45e7-997c-dd42d42e7978"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol F1 [0467001.NRHF]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 0.6604
+                            },
+                            "uuid": "8c5c6b7a-020c-4cde-a47b-6004dbb8a7d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol F1 [0467001.NRHF]",
+                            "pos": {
+                                "x": 2.8829,
+                                "y": 0.6604
+                            },
+                            "uuid": "8c5c6b7a-020c-4cde-a47b-6004dbb8a7d8"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol SW4 [SK-3296S-01-L1]",
+                            "pos": {
+                                "x": 2.9337,
+                                "y": 0.2667
+                            },
+                            "uuid": "0fdd5d93-85df-4647-8bcb-60afa1d2dc09"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol SW4 [SK-3296S-01-L1]",
+                            "pos": {
+                                "x": 2.9337,
+                                "y": 0.2667
+                            },
+                            "uuid": "0fdd5d93-85df-4647-8bcb-60afa1d2dc09"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RL2 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.6637
+                            },
+                            "uuid": "0e826a91-43ce-46db-a411-2b5bfa5ebbdd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol RL2 [0402WGF2001TCE]",
+                            "pos": {
+                                "x": 2.9718,
+                                "y": 1.6637
+                            },
+                            "uuid": "0e826a91-43ce-46db-a411-2b5bfa5ebbdd"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol R_adc2 [0402WGF4702TCE]",
+                            "pos": {
+                                "x": 2.9845,
+                                "y": 1.2319
+                            },
+                            "uuid": "fe216dcc-0eb0-4415-a97b-9917c641377a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol R_adc2 [0402WGF4702TCE]",
+                            "pos": {
+                                "x": 2.9845,
+                                "y": 1.2319
+                            },
+                            "uuid": "fe216dcc-0eb0-4415-a97b-9917c641377a"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the footprint library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U16 [WAFER-PH2.0-2PWZ]",
+                            "pos": {
+                                "x": 3.0099,
+                                "y": 0.6731
+                            },
+                            "uuid": "3455bac7-a575-4e8d-ac94-bc22a99239d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "footprint_link_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol U16 [WAFER-PH2.0-2PWZ]",
+                            "pos": {
+                                "x": 3.0099,
+                                "y": 0.6731
+                            },
+                            "uuid": "3455bac7-a575-4e8d-ac94-bc22a99239d0"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR24 [Ground-GND]",
+                            "pos": {
+                                "x": 3.048,
+                                "y": 0.2921
+                            },
+                            "uuid": "6f1f03a2-2e78-4a42-a708-91ca951804aa"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                },
+                {
+                    "description": "The current configuration does not include the symbol library 'ProPrj_BCI-easyedapro'",
+                    "items": [
+                        {
+                            "description": "Symbol #PWR16 [3V3]",
+                            "pos": {
+                                "x": 3.048,
+                                "y": 1.6637
+                            },
+                            "uuid": "36f2513a-8275-475e-826c-86212c5cdbd1"
+                        }
+                    ],
+                    "severity": "warning",
+                    "type": "lib_symbol_issues"
+                }
+            ]
+        }
+    ],
+    "source": "7_ESP and Power.kicad_sch"
+}
